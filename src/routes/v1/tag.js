@@ -1,7 +1,8 @@
 module.exports = {
-  "POST /": {
+  "POST /:manager": {
     middleware: [],
     async handler(req, res) {
+      const { manager } = req.params;
       return {
         data: "Hello World",
       };
