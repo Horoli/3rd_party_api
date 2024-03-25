@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Utility/*": ["./utility/*"]
+      //   "@Model/*": ["./model/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
