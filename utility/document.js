@@ -1,11 +1,14 @@
 const MongoDB = require("@Utility/mongodb");
 
 class Document {
+  static async getDatas({ collection, query, queryOptions }) {
+    const getDatas = await collection.find(query, queryOptions).toArray();
+
+    return getDatas;
+  }
+
   static async postValidation({ collection, query, queryOptions }) {
-    const getData = await collection.findOne({
-      query,
-      queryOptions,
-    });
+    const getData = await collection.findOne(query, queryOptions);
 
     if (!!getData) {
       const collectionName = collection.namespace.split(".")[1];
@@ -15,10 +18,7 @@ class Document {
   }
 
   static async getValidation({ collection, query, queryOptions }) {
-    const getData = await collection.findOne({
-      query,
-      queryOptions,
-    });
+    const getData = await collection.findOne(query, queryOptions);
 
     if (!getData) {
       const collectionName = collection.namespace.split(".")[1];

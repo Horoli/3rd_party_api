@@ -10,10 +10,10 @@ module.exports = {
       const { manager } = req.params;
       const { type, label } = req.body;
 
-      const tagsCol = await MongoDB.getCollection("tags");
+      const tagCol = await MongoDB.getCollection("tag");
 
       const getData = await Document.postValidation({
-        collection: tagsCol,
+        collection: tagCol,
         query: {
           type: type,
           label: label,
@@ -29,12 +29,38 @@ module.exports = {
         },
       };
 
-      const insertResult = await tagsCol.insertOne(insertData);
+      const insertResult = await tagCol.insertOne(insertData);
 
       return new GeneralResponse({
         statusCode: 200,
         message: "tag created success",
         data: insertData,
+      });
+    },
+  },
+
+  "GET /": {
+    middleware: [],
+    async handler(req, rep) {
+      const tagCol = await MongoDB.getCollection("tag");
+
+      const getTags = await Document.getDatas({
+        collection: tagCol,
+        query: {
+          "status.enable": true,
+        },
+        queryOptions: {
+          projection: { _id: 0, status: 0 },
+        },
+      });
+
+      return new GeneralResponse({
+        statusCode: 200,
+        message: "",
+        data: {
+          length: getTags.length,
+          tags: getTags,
+        },
       });
     },
   },
