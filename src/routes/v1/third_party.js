@@ -69,6 +69,8 @@ module.exports = {
     async handler(req, rep) {
       const { tag } = req.params;
 
+      console.log("tag", tag);
+
       const thirdPartyCol = await MongoDB.getCollection("thirdParty");
 
       const getThirdParties = await Document.getDatas({
@@ -88,7 +90,7 @@ module.exports = {
         statusCode: 200,
         message: "",
         data: {
-          length: getThirdParties.length,
+          // length: getThirdParties.length,
           thirdParties: getThirdParties,
         },
       });
