@@ -39,14 +39,19 @@ module.exports = {
     },
   },
 
-  "GET /": {
+  "GET /:type": {
     middleware: [],
     async handler(req, rep) {
+      const { type } = req.params;
+
+      console.log(type);
+
       const tagCol = await MongoDB.getCollection("tag");
 
       const getTags = await Document.getDatas({
         collection: tagCol,
         query: {
+          type: parseInt(type),
           "status.enable": true,
         },
         queryOptions: {
