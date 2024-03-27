@@ -15,7 +15,7 @@ module.exports = {
         subDescription,
         thumbnail,
         infoImages,
-        url,
+        mainUrl,
         tags,
       } = req.body;
 
@@ -44,14 +44,17 @@ module.exports = {
           thumbnail: thumbnail,
           info: infoImages,
         },
-        link: {
-          url: url,
+        url: {
+          main: mainUrl,
         },
         status: {
           created: new Date(),
           enable: true,
         },
         tags: tags,
+        userAction: {
+          click: 0,
+        },
       };
 
       const insertResult = await thirdPartyCol.insertOne(insertData);
@@ -85,6 +88,8 @@ module.exports = {
           projection: { _id: 0, status: 0 },
         },
       });
+
+      console.log(getThirdParties);
 
       return new GeneralResponse({
         statusCode: 200,

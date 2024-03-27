@@ -63,7 +63,6 @@ module.exports = {
         statusCode: 200,
         message: "",
         data: {
-          length: getTags.length,
           tags: getTags,
         },
       });
