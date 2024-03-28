@@ -1,6 +1,14 @@
 const MongoDB = require("@Utility/mongodb");
 
 class Document {
+  static collections = {
+    TAG: "tag",
+    THIRD_PARTY: "thirdParty",
+    USER_ACTION: "userAction",
+    VISIT: "visit",
+    IMAGE: "image",
+  };
+
   static async getDatas({ collection, query, queryOptions }) {
     const getDatas = await collection.find(query, queryOptions).toArray();
 

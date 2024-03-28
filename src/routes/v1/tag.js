@@ -10,7 +10,11 @@ module.exports = {
       const { manager } = req.params;
       const { type, label } = req.body;
 
-      const tagCol = await MongoDB.getCollection("tag");
+      if (!label || !type) {
+        throw Error("Bad Request : required parameters is empty(type, label)");
+      }
+
+      const tagCol = await MongoDB.getCollection(Document.collections.TAG);
 
       const getData = await Document.postValidation({
         collection: tagCol,
@@ -44,9 +48,10 @@ module.exports = {
     async handler(req, rep) {
       const { type } = req.params;
 
-      const tagCol = await MongoDB.getCollection("tag");
+      const tagCol = await MongoDB.getCollection(Document.collections.TAG);
 
       const typeNullCheck = !type;
+      console.log(typeNullCheck);
 
       let getTags;
 

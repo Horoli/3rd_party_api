@@ -3,12 +3,14 @@ const Constants = require("@Utility/constants");
 const MongoDB = require("@Utility/mongodb");
 const GeneralResponse = require("@Utility/general_response");
 const Utility = require("@Utility/index");
+// const fs = require("fs");
+// const path = require("path");
+// const { get } = require("http");
 
 module.exports = {
-  "POST /:manager": {
-    middleware: [],
+  "POST /": {
+    middlewares: [],
     async handler(req, res) {
-      const { manager } = req.params;
       const {
         type,
         label,
@@ -20,18 +22,36 @@ module.exports = {
         tags,
       } = req.body;
 
-      const convertType = parseInt(type);
+      // if (!label || !url || !id) {
+      //   throw Error(
+      //     "Bad Request : required parameters is empty(id, label, url)"
+      //   );
+      // }
 
-      const thirdPartyCol = await MongoDB.getCollection("thirdParty");
-      const imageCol = await MongoDB.getCollection("image");
+      let convertType;
+
+      switch (type.toUpperCase()) {
+        case Constants.POE: {
+          convertType = Constants.TYPE.PATH_OF_EXILE;
+          break;
+        }
+        case Constants.WOW: {
+          convertType = Constants.TYPE.WOW;
+          break;
+        }
+      }
+      console.log(convertType);
+
+      const thirdPartyCol = await MongoDB.getCollection(
+        Document.collections.THIRD_PARTY
+      );
+      const imageCol = await MongoDB.getCollection(Document.collections.IMAGE);
 
       // TODO : 입력된 tags가 tagCol에 있는지 확인
 
       // TODO : type이 constants에 포함되어있는지 확인
 
       // TODO : type
-
-      console.log("aaa");
 
       const getData = await Document.postValidation({
         collection: thirdPartyCol,
@@ -45,6 +65,11 @@ module.exports = {
 
       if (!!thumbnail) {
         imageId = Utility.UUID(true);
+        // const imageFileName = `${imageId}.base64string`;
+        // const imagePath = path.join(__dirname, "uploads", imageFileName);
+
+        // console.log(__dirname);
+        // console.log(imagePath);
 
         await imageCol.insertOne({
           id: imageId,
@@ -62,11 +87,11 @@ module.exports = {
         label: label,
         description: {
           main: mainDescription,
-          sub: subDescription ?? null,
+          sub: subDescription ?? "",
         },
         images: {
           thumbnail: imageId,
-          info: infoImages ?? null,
+          info: infoImages ?? "",
         },
         url: {
           main: mainUrl,
@@ -80,7 +105,7 @@ module.exports = {
           click: 0,
         },
       };
-      // console.log(insertData);
+      console.log(insertData);
       const insertResult = await thirdPartyCol.insertOne(insertData);
 
       return new GeneralResponse({
@@ -91,16 +116,17 @@ module.exports = {
     },
   },
 
-  "GET /:tag": {
-    middleware: [],
+  "GET /:tag/id/:id": {
+    middlewares: ["visit"],
     async handler(req, rep) {
       const { tag } = req.params;
 
-      const thirdPartyCol = await MongoDB.getCollection("thirdParty");
+      const thirdPartyCol = await MongoDB.getCollection(
+        Document.collections.THIRD_PARTY
+      );
+      const imageCol = await MongoDB.getCollection(Document.collections.IMAGE);
 
       const tagNullCheck = !tag;
-
-      console.log(tagNullCheck);
 
       let getThirdParties;
 
@@ -115,6 +141,20 @@ module.exports = {
               projection: { _id: 0, status: 0 },
             },
           });
+
+          await Promise.all(
+            await getThirdParties.map(async (thirdParty) => {
+              const getImage = await imageCol.findOne(
+                {
+                  id: thirdParty.images.thumbnail,
+                },
+                { projection: { _id: 0, status: 0 } }
+              );
+
+              thirdParty.images.thumbnail = getImage.contents;
+            })
+          );
+
           break;
         }
         case false: {
@@ -130,11 +170,23 @@ module.exports = {
               projection: { _id: 0, status: 0 },
             },
           });
+
+          await Promise.all(
+            await getThirdParties.map(async (thirdParty) => {
+              const getImage = await imageCol.findOne(
+                {
+                  id: thirdParty.images.thumbnail,
+                },
+                { projection: { _id: 0, status: 0 } }
+              );
+
+              thirdParty.images.thumbnail = getImage.contents;
+            })
+          );
+
           break;
         }
       }
-
-      console.log(getThirdParties);
 
       return new GeneralResponse({
         statusCode: 200,
