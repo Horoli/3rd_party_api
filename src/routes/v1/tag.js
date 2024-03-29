@@ -10,7 +10,7 @@ module.exports = {
       // const { manager } = req.params;
       const { type, label } = req.body;
 
-      if (!label || !type) {
+      if (!label || type == undefined) {
         throw Error("Bad Request : required parameters is empty(type, label)");
       }
 
