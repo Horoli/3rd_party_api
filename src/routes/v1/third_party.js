@@ -19,6 +19,7 @@ module.exports = {
         thumbnail,
         infoImages,
         mainUrl,
+        manualUrl,
         tags,
       } = req.body;
 
@@ -95,6 +96,7 @@ module.exports = {
         },
         url: {
           main: mainUrl,
+          manual: manualUrl,
         },
         status: {
           created: new Date(),
