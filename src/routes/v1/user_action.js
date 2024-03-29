@@ -9,7 +9,7 @@ module.exports = {
     middlewares: [],
     async handler(req, res) {
       const { id } = req.params;
-      const { label, url } = req.body;
+      const { label, url, platform } = req.body;
 
       if (!label || !url || !id) {
         throw Error(
@@ -28,6 +28,7 @@ module.exports = {
         Document.collections.USER_ACTION
       );
 
+      // TODO : userActionCol에 5분 이내의 같은 action이 있는지 확인
       const getUserAction = await userActionCol.findOne({
         user: idWithoutHyphens,
         "action.label": label,
@@ -37,6 +38,7 @@ module.exports = {
         },
       });
 
+      // TODO : userActionCol에 5분 이내의 같은 action이 있으면 return
       if (!!getUserAction) {
         return new GeneralResponse({
           statusCode: 200,
@@ -45,8 +47,10 @@ module.exports = {
         });
       }
 
+      // TODO : userActionCol에 5분 이내의 같은 action이 없으면 insert
       const newUserAction = {
         user: idWithoutHyphens,
+        platform: platform,
         action: {
           label: label,
           url: url,

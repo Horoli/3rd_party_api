@@ -9,7 +9,7 @@ const Utility = require("@Utility/index");
 
 module.exports = {
   "POST /": {
-    middlewares: [],
+    middlewares: ["manager"],
     async handler(req, res) {
       const {
         type,
@@ -91,7 +91,7 @@ module.exports = {
         },
         images: {
           thumbnail: imageId,
-          info: infoImages ?? "",
+          info: infoImages ?? [],
         },
         url: {
           main: mainUrl,
@@ -116,10 +116,12 @@ module.exports = {
     },
   },
 
-  "GET /:tag/id/:id": {
+  "GET /:tag/platform/:platform/id/:id": {
     middlewares: ["visit"],
     async handler(req, rep) {
-      const { tag } = req.params;
+      const { tag, platform, id } = req.params;
+
+      console.log(tag, platform, id);
 
       const thirdPartyCol = await MongoDB.getCollection(
         Document.collections.THIRD_PARTY

@@ -4,10 +4,10 @@ const MongoDB = require("@Utility/mongodb");
 const GeneralResponse = require("@Utility/general_response");
 
 module.exports = {
-  "POST /:manager": {
-    middleware: [],
+  "POST /": {
+    middlewares: ["manager"],
     async handler(req, res) {
-      const { manager } = req.params;
+      // const { manager } = req.params;
       const { type, label } = req.body;
 
       if (!label || !type) {
@@ -44,7 +44,7 @@ module.exports = {
   },
 
   "GET /:type": {
-    middleware: [],
+    middlewares: [],
     async handler(req, rep) {
       const { type } = req.params;
 
