@@ -202,4 +202,21 @@ module.exports = {
       });
     },
   },
+
+  "GET /": {
+    middlewares: [],
+    async handler(req, rep) {
+      const thirdPartyCol = await MongoDB.getCollection(
+        Document.collections.THIRD_PARTY
+      );
+
+      const getThirdParties = await thirdPartyCol.find({}).toArray();
+
+      return new GeneralResponse({
+        statusCode: 200,
+        message: "",
+        data: getThirdParties,
+      });
+    },
+  },
 };
