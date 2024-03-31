@@ -10,22 +10,36 @@ module.exports = {
       // const { manager } = req.params;
       const { type, label } = req.body;
 
-      if (!label || type == undefined) {
+      if (!label || !type) {
         throw Error("Bad Request : required parameters is empty(type, label)");
       }
+
+      let convertType;
+
+      switch (type.toUpperCase()) {
+        case Constants.POE: {
+          convertType = Constants.TYPE.PATH_OF_EXILE;
+          break;
+        }
+        case Constants.WOW: {
+          convertType = Constants.TYPE.WOW;
+          break;
+        }
+      }
+      console.log(convertType);
 
       const tagCol = await MongoDB.getCollection(Document.collections.TAG);
 
       const getData = await Document.postValidation({
         collection: tagCol,
         query: {
-          type: type,
+          type: convertType,
           label: label,
         },
       });
 
       const insertData = {
-        type: type,
+        type: convertType,
         label: label,
         status: {
           created: new Date(),
