@@ -15,7 +15,7 @@ module.exports = async (req, rep) => {
     user: idWithoutHyphens,
     platform: platform,
     "visited.latest": {
-      $gte: Date.now() - 1000 * 60 * 60 * 24,
+      $gte: new Date(Date.now() - 1000 * 60 * 60 * 24),
     },
   });
 
@@ -24,7 +24,7 @@ module.exports = async (req, rep) => {
       user: idWithoutHyphens,
       platform: platform,
       visited: {
-        latest: Date.now(),
+        latest: new Date(Date.now()),
       },
     };
 

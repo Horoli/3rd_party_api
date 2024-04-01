@@ -34,7 +34,7 @@ module.exports = {
         "action.label": label,
         "action.url": url,
         "action.latest": {
-          $gte: Date.now() - 60 * 5 * 1000,
+          $gte: new Date(Date.now() - 60 * 5 * 1000),
         },
       });
 
@@ -54,7 +54,7 @@ module.exports = {
         action: {
           label: label,
           url: url,
-          latest: Date.now(),
+          latest: new Date(Date.now()),
         },
       };
 

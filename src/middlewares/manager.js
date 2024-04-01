@@ -16,9 +16,12 @@ module.exports = async (req, rep) => {
     },
   });
 
+  console.log(getToken.expireAt);
+  console.log(new Date(Date.now()));
+
   // TODO : token validation
   // getToken.expireAt이 현재시간보다 작으면 만료된 토큰
-  if (getToken.expireAt < Date.now()) {
+  if (getToken.expireAt < new Date(Date.now())) {
     throw Error("Token is expired");
   }
 
@@ -31,7 +34,8 @@ module.exports = async (req, rep) => {
     },
     {
       $set: {
-        expireAt: Date.now() + 1000 * 60 * 60,
+        expireAt: new Date(Date.now() + 1000 * 60 * 60),
+        // expireAt: new Date(Date.now() + 1),
       },
     }
   );

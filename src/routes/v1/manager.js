@@ -87,7 +87,8 @@ module.exports = {
             $set: {
               token: newToken,
               created: new Date(),
-              ExpireAt: new Date(Date.now() + 60 * 60 * 1000),
+              expireAt: new Date(Date.now() + 60 * 60 * 1000),
+              //   ExpireAt: new Date(Date.now() + 1),
             },
           }
         );
@@ -97,7 +98,8 @@ module.exports = {
           token: newToken,
           created: new Date(),
           // ExpireAt은 created로 부터 1시간 후로 설정
-          ExpireAt: new Date(Date.now() + 60 * 60 * 1000),
+          expireAt: new Date(Date.now() + 60 * 60 * 1000),
+          //   ExpireAt: new Date(Date.now() + 1),
         };
 
         await tokenCol.insertOne(setToken);
