@@ -7,6 +7,9 @@ class Document {
     USER_ACTION: "userAction",
     VISIT: "visit",
     IMAGE: "image",
+    MASTER: "master",
+    MANAGER: "manager",
+    TOKEN: "token",
   };
 
   static async getDatas({ collection, query, queryOptions }) {
