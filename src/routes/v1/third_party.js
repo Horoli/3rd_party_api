@@ -161,6 +161,9 @@ module.exports = {
 
           break;
         }
+        /**
+         * @description client에서 보여주는 데이터는 아래 코드로 처리
+         */
         case false: {
           getThirdParties = await Document.getDatas({
             collection: thirdPartyCol,

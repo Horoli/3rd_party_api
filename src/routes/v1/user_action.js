@@ -28,13 +28,13 @@ module.exports = {
         Document.collections.USER_ACTION
       );
 
-      // TODO : userActionCol에 5분 이내의 같은 action이 있는지 확인
+      // TODO : userActionCol에 1분 이내의 같은 action이 있는지 확인
       const getUserAction = await userActionCol.findOne({
         user: idWithoutHyphens,
         "action.label": label,
         "action.url": url,
         "action.latest": {
-          $gte: new Date(Date.now() - 60 * 5 * 1000),
+          $gte: new Date(Date.now() - 60 * 1 * 1000),
         },
       });
 
@@ -42,12 +42,12 @@ module.exports = {
       if (!!getUserAction) {
         return new GeneralResponse({
           statusCode: 200,
-          message: "already update userAction(5minute ago)",
+          message: "already update userAction(1minute ago)",
           data: {},
         });
       }
 
-      // TODO : userActionCol에 5분 이내의 같은 action이 없으면 insert
+      // TODO : userActionCol에 1분 이내의 같은 action이 없으면 insert
       const newUserAction = {
         user: idWithoutHyphens,
         platform: platform,
