@@ -38,7 +38,7 @@ module.exports = {
         },
       });
 
-      // TODO : userActionCol에 5분 이내의 같은 action이 있으면 return
+      // TODO : userActionCol에 1분 이내의 같은 action이 있으면 return
       if (!!getUserAction) {
         return new GeneralResponse({
           statusCode: 200,
