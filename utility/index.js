@@ -8,6 +8,12 @@ class Utility {
     return uuid;
   }
 
+  static getLocalTime(date) {
+    const getDate = !date ? new Date() : new Date(date);
+    const timezoneOffsetToMiliseconds = getDate.getTimezoneOffset() * 60 * 1000;
+    return new Date(getDate.getTime() - timezoneOffsetToMiliseconds);
+  }
+
   static async hashPassword(password) {
     const salt = bcrypt.genSaltSync(10);
     return bcrypt.hashSync(password, salt);
