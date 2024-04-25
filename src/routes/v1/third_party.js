@@ -66,16 +66,12 @@ module.exports = {
 
       if (!!thumbnail) {
         imageId = Utility.UUID(true);
-        // const imageFileName = `${imageId}.base64string`;
-        // const imagePath = path.join(__dirname, "uploads", imageFileName);
-
-        // console.log(__dirname);
-        // console.log(imagePath);
 
         await imageCol.insertOne({
           id: imageId,
           contents: thumbnail,
           type: "base64String",
+          category: "thirdPartyThumbnail",
           status: {
             created: new Date(),
             enable: true,

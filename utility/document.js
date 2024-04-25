@@ -2,6 +2,7 @@ const MongoDB = require("@Utility/mongodb");
 
 class Document {
   static collections = {
+    LEAGUE: "league",
     TAG: "tag",
     THIRD_PARTY: "thirdParty",
     USER_ACTION: "userAction",
