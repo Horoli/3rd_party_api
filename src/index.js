@@ -3,6 +3,7 @@ const Fs = require("fs");
 const Path = require("path");
 const Cors = require("@fastify/cors");
 const MongoDB = require("@Utility/mongodb");
+const SteamAPIInstance = require("@Utility/steamapi");
 
 class WebServer {
   constructor(opts = {}) {
@@ -110,6 +111,10 @@ class WebServer {
   }
 
   async start() {
+    await SteamAPIInstance.sharedInstance.connect(
+      "F7EC7D6CD26482F9F843484CDAC29017"
+    );
+
     this.$webServer.register(Cors, {
       origin: "*",
     });

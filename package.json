@@ -17,6 +17,14 @@
     "better-module-alias": "^1.2.1",
     "crypto": "^1.0.1",
     "fastify": "^4.26.2",
-    "mongodb": "^6.5.0"
+    "mongodb": "^6.5.0",
+    "steamapi": "^3.0.8"
+  },
+  "exports": {
+    "node": {
+      "import": "./app.js",
+      "require": "./app.js"
+    },
+    "default": "./app.js"
   }
 }
