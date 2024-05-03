@@ -111,9 +111,7 @@ class WebServer {
   }
 
   async start() {
-    await SteamAPIInstance.sharedInstance.connect(
-      "F7EC7D6CD26482F9F843484CDAC29017"
-    );
+    await SteamAPIInstance.sharedInstance.connect("aaa");
 
     this.$webServer.register(Cors, {
       origin: "*",
