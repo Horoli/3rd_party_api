@@ -1,0 +1,7992 @@
+[
+  {
+    "name": "Absolution",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Physical",
+      "Lightning",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Absolution of Inspiring",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Physical",
+      "Lightning",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Added Chaos Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Added Cold Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Added Fire Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Added Lightning Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Additional Accuracy Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Advanced Traps Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Trap",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Alchemist's Mark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Curse",
+      "Mark",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Chaos"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ambush",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "Movement",
+      "Duration",
+      "Travel"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ancestral Call Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Ancestral Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Ancestral Protector",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Totem",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Ancestral Warchief",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Anger",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Animate Guardian",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Animate Guardian of Smiting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Lightning"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Animate Weapon",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Duration",
+      "Minion",
+      "Spell",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Animate Weapon of Ranged Arms",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Duration",
+      "Minion",
+      "Spell",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Animate Weapon of Self Reflection",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Duration",
+      "Minion",
+      "Spell"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Arc",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaining",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Arc of Oscillating",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaining",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Arc of Surging",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Arcane Cloak",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Guard",
+      "Lightning",
+      "Arcane"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Arcane Surge Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Arcane",
+      "Support",
+      "Spell",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Arcanist Brand",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trigger",
+      "Spell",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Archmage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Arcane",
+      "Support",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Arctic Armour",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Armageddon Brand",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Armageddon Brand of Recall",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Armageddon Brand of Volatility",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Arrogance Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Aura",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Arrow Nova Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Bow",
+      "Attack",
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Artillery Ballista",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Fire",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Artillery Ballista of Cross Strafe",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Fire",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Artillery Ballista of Focus Fire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Fire",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Assassin's Mark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "Curse",
+      "Mark"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Automation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trigger",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Added Chaos Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Added Cold Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Added Fire Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Added Lightning Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Ancestral Call Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Arrow Nova Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Bow",
+      "Attack",
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Blasphemy Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Hex",
+      "Aura"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Brutality Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Burning Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Cast On Critical Strike Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Cast While Channelling Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Channelling",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Chain Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Chaining",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Cold Penetration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Controlled Destruction Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Spell",
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Deadly Ailments Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Elemental Damage with Attacks Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Elemental Focus Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Empower Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Exceptional",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Enhance Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Exceptional",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Enlighten Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Exceptional",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Fire Penetration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Fork Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Generosity Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Aura"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Greater Multiple Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Hextouch Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Hex",
+      "Trigger"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Increased Area of Effect Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Lightning Penetration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Melee Physical Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Melee",
+      "Physical",
+      "Support",
+      "Attack"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Melee Splash Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "Strike",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Minion Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Multistrike Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Awakened Spell Cascade Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "AoE",
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Spell Echo Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Swift Affliction Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Unbound Ailments Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Unleash Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Awakened Vicious Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Projectile",
+      "Attack",
+      "Physical",
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Awakened Void Manipulation Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ball Lightning",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ball Lightning of Orbiting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ball Lightning of Static",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ballista Totem Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Bow",
+      "Projectile",
+      "Support",
+      "Totem"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Bane",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Trigger",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Bane of Condemnation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Trigger",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Barrage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Barrage of Volley Fire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Barrage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Bow",
+      "Attack",
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Battlemage's Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "Critical",
+      "Trigger",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Bear Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Bear Trap of Skewers",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Behead Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Berserk",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Blade Blast",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Blast of Dagger Detonation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Nova"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Blast of Unloading",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Nova"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Flurry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Channelling",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Flurry of Incision",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Attack",
+      "AoE",
+      "Channelling",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Attack",
+      "AoE"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Trap of Greatswords",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Attack",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Trap of Laceration",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Attack",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Vortex",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blade Vortex of the Scythe",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Bladefall",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Bladefall of Impaling",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Bladefall of Volleys",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Bladestorm",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Bladestorm of Uncertainty",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Blasphemy Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Hex",
+      "Aura"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Blast Rain",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blastchain Mine Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Mine"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Blazing Salvo",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Blight",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaos",
+      "AoE",
+      "Channelling",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Blight of Atrophy",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaos",
+      "AoE",
+      "Channelling",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Blight of Contagion",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaos",
+      "AoE",
+      "Channelling",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Blind Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blink Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blink Arrow of Bombarding Clones",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blink Arrow of Prismatic Clones",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Prismatic",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Block Chance Reduction Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Blood and Sand",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Stance"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Blood Rage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Bloodlust Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Physical",
+      "Support",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Bloodthirst Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Bodyswap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Movement",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Travel"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Bodyswap of Sacrifice",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Movement",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Travel",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Bone Offering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Bonechill Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Boneshatter",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Boneshatter of Carnage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Boneshatter of Complex Trauma",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Brand Recall",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Brand",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Brutality Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Burning Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Fire",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Burning Arrow of Vigour",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Fire",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Burning Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Call to Arms",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "Trigger",
+      "Spell"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Cast On Critical Strike Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cast on Death Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cast on Melee Kill Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Cast when Damage Taken Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Cast when Stunned Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Cast while Channelling Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Channelling",
+      "Spell",
+      "Trigger"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Caustic Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Caustic Arrow of Poison",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Chaos",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Chain Hook",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Chain Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Chaining",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Chance to Bleed Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Chance to Flee Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Chance to Poison Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Charged Dash",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Movement",
+      "AoE",
+      "Channelling",
+      "Attack",
+      "Lightning",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Charged Mines Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support",
+      "Mine"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Charged Traps Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support",
+      "Trap"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Clarity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Cleave",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Cleave of Rage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Close Combat Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cluster Traps Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Trap",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cobra Lash",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Chaos"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cold Penetration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cold Snap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Cold Snap of Power",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Cold to Fire Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Fire",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Combustion Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Concentrated Effect Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Conductivity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Consecrated Path",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Movement",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Consecrated Path of Endurance",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Movement",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Contagion",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Contagion of Subsiding",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Contagion of Transference",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Controlled Blaze Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support",
+      "Melee",
+      "Attack"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Controlled Destruction Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Spell",
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Conversion Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Convocation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Convocation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Corrupting Cry Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "AoE",
+      "Physical",
+      "Support",
+      "Warcry",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Corrupting Fever",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Crackling Lance",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Crackling Lance of Branching",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Crackling Lance of Disintegration",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Creeping Frost",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "AoE",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Cremation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Projectile",
+      "Orb"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cremation of Exhuming",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Projectile",
+      "Orb"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cremation of the Volcano",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Projectile",
+      "Orb"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Critical Strike Affliction Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cruelty Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Culling Strike Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cursed Ground Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "AoE",
+      "Duration",
+      "Support",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Cyclone",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Channelling",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Cyclone of Tumult",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Channelling",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Damage on Full Life Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Dark Pact",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell",
+      "AoE",
+      "Chaining",
+      "Chaos",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Dash",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Movement",
+      "Travel",
+      "Blink"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Deadly Ailments Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Decay Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Decoy Totem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Totem",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Defiance Banner",
+    "class": "Skill Gem",
+    "gem tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Desecrate",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Despair",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Destructive Link",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "Duration",
+      "Link"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Determination",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Detonate Dead",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Detonate Dead of Chain Reaction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Detonate Dead of Scavenging",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Detonate Mines",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Spell"
+    ],
+    "primary attribute": "none"
+  },
+  {
+    "name": "Devour Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Devouring Totem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Totem",
+      "Spell"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Discharge",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Discharge of Misery",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Discipline",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Divine Blessing Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Aura",
+      "Duration",
+      "Blessing"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Divine Ire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Channelling",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Divine Ire of Disintegration",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Channelling",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Divine Ire of Holy Lightning",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Channelling",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Dominating Blow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Dominating Blow of Inspiring",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Double Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Double Strike of Impaling",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Double Strike of Momentum",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Dread Banner",
+    "class": "Skill Gem",
+    "gem tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Dual Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Dual Strike of Ambidexterity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Earthbreaker Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Slam",
+      "AoE",
+      "Support",
+      "Totem"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Earthquake",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Earthquake of Amplification",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Earthshatter",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Duration",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Earthshatter of Fragility",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Duration",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Earthshatter of Prominence",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Duration",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Efficacy Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Elemental Army Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Elemental Damage with Attacks Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Elemental Focus Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Elemental Hit",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "AoE",
+      "Prismatic",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Elemental Hit of the Spectrum",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "AoE",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Elemental Penetration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Elemental Proliferation Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Fire",
+      "Lightning",
+      "Support",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Elemental Weakness",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Empower Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Exceptional",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Endurance Charge on Melee Stun Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Enduring Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Energy Blade",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Energy Leech Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Enfeeble",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Enhance Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Exceptional",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Enlighten Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Exceptional",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ensnaring Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Essence Drain",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Chaos",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Essence Drain of Desperation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Chaos",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Essence Drain of Wickedness",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Chaos",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Eternal Blessing Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Aura",
+      "Blessing"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Ethereal Knives",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ethereal Knives of Lingering Blades",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Physical",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ethereal Knives of the Massacre",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Explosive Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Explosive Concoction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Explosive Concoction of Destruction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Attack",
+      "AoE",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Explosive Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Explosive Trap of Magnitude",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Explosive Trap of Shrapnel",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Exsanguinate",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaining",
+      "Physical",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Exsanguinate of Transmission",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaining",
+      "Physical",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Eye of Winter",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Eye of Winter of Finality",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Eye of Winter of Transience",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Faster Attacks Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Faster Casting Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Faster Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Feeding Frenzy Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Fire Penetration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Fire Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Fire Trap of Blasting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Fireball",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Projectile",
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Firestorm",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Firestorm of Meteors",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Firestorm of Pelting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Fist of War Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Slam",
+      "Attack",
+      "Melee",
+      "AoE",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Flame Dash",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Movement",
+      "Duration",
+      "Fire",
+      "Travel",
+      "Blink"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flame Dash of Return",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Movement",
+      "Duration",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flame Link",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Link",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Flame Surge",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flame Surge of Combusting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flame Wall",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flameblast",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flameblast of Celerity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flameblast of Contraction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flamethrower Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Flamewood Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Totem",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Projectile",
+      "Trigger"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Flammability",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flesh and Stone",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Aura",
+      "AoE",
+      "Stance"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Flesh Offering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Flicker Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Movement",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Flicker Strike of Power",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Attack",
+      "Melee",
+      "Strike",
+      "Movement",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Focused Ballista Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Projectile",
+      "Support",
+      "Totem"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Forbidden Rite",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Forbidden Rite of Soul Sacrifice",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Fork Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Fortify Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Freezing Pulse",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frenzy",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Frenzy of Onslaught",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Fresh Meat Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frigid Bond Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support",
+      "Link",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frost Blades",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Frost Blades of Katabasis",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Cold",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Frost Bomb",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frost Bomb of Forthcoming",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frost Bomb of Instability",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frost Shield",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frost Wall",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frostbite",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frostblink",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Movement",
+      "Duration",
+      "Cold",
+      "Travel",
+      "Blink",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frostblink of Wintry Blast",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Movement",
+      "Cold",
+      "Travel",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frostbolt",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Frozen Legion",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Cold",
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Frozen Legion of Rallying",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Cold",
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Galvanic Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Galvanic Arrow of Energy",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Galvanic Arrow of Surging",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Galvanic Field",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Chaining",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Galvanic Field of Intensity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Chaining",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "General's Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Generosity Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Aura"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Glacial Cascade",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Glacial Cascade of the Fissure",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Glacial Hammer",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Glacial Hammer of Shattering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Attack",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Grace",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Greater Multiple Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Greater Volley Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ground Slam",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Ground Slam of Earthshaking",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Guardian's Blessing Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Aura",
+      "Blessing",
+      "Minion"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Haste",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Hatred",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Heavy Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Hemorrhage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      ""
+    ],
+    "primary attribute": null
+  },
+  {
+    "name": "Herald of Agony",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Herald",
+      "Minion",
+      "Chaos",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Herald of Ash",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Herald",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Herald of Ice",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Herald"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Herald of Purity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Herald",
+      "Minion",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Herald of Thunder",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Herald"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Hex Bloom Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Hexblast",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Hexblast of Contradiction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Hexblast of Havoc",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Hex"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Hextouch Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Hex",
+      "Trigger"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "High-Impact Mine Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Mine",
+      "Support",
+      "AoE",
+      "Aura"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Holy Flame Totem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Totem",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "Channelling",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Holy Flame Totem of Ire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Totem",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "Channelling",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Hydrosphere",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold",
+      "Orb",
+      "Lightning",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Hypothermia Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ice Bite Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Cold",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ice Crash",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Cold",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Ice Crash of Cadence",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Cold",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Ice Nova",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ice Nova of Deep Freeze",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ice Nova of Frostbolts",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ice Shot",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Cold",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ice Shot of Penetration",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Cold",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ice Spear",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ice Spear of Splitting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ice Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Ice Trap of Hollowness",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Icicle Mine",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Cold",
+      "Aura",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Icicle Mine of Fanning",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Cold",
+      "Aura",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Icicle Mine of Sabotage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Cold",
+      "Aura",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ignite Proliferation Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Immolate Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Immortal Call",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Guard"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Impale Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Impending Doom Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Hex",
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Trigger"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Incinerate",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Fire",
+      "Channelling",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Incinerate of Expanse",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Fire",
+      "Channelling",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Incinerate of Venting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Fire",
+      "Channelling",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Increased Area of Effect Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Increased Critical Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Increased Critical Strikes Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Increased Duration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Infernal Blow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Infernal Blow of Immolation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Infernal Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Attack",
+      "Trigger",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Infernal Legion Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Fire",
+      "AoE",
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Infused Channelling Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Channelling",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Innervate Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Inspiration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Intensify Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "AoE",
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Intimidating Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Intuitive Link",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trigger",
+      "Spell",
+      "Duration",
+      "Link"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Iron Grip Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Projectile",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Iron Will Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Item Quantity Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Item Rarity Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Kinetic Blast",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Kinetic Blast of Clustering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Kinetic Bolt",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Kinetic Bolt of Fragmentation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Knockback Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Lacerate",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lacerate of Butchering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lacerate of Haemorrhage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lancing Steel",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lancing Steel of Spraying",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Leap Slam",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Leap Slam of Groundbreaking",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Less Duration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Lesser Multiple Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Life Gain on Hit Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Life Leech Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Lifetap Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Lightning Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lightning Arrow of Electrocution",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Lightning",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lightning Conduit",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Conduit of the Heavens",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Penetration Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Spire Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Critical",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Spire Trap of Overloading",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Spire Trap of Zapping",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Lightning"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lightning Strike of Arcing",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Lightning",
+      "Chaining"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Lightning Tendrils",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Tendrils of Eccentricity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Tendrils of Escalation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Trap of Sparking",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Lightning Warp",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Movement",
+      "Lightning",
+      "Travel"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Locus Mine Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Bow",
+      "Attack",
+      "Support",
+      "Projectile",
+      "Mine"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Maim Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Malevolence",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Mana Leech Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Manabond",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Arcane"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Manaforged Arrows Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Bow",
+      "Support",
+      "Trigger"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Mark On Hit Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Mark",
+      "Trigger"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Meat Shield Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Melee Physical Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Melee",
+      "Physical",
+      "Support",
+      "Attack"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Melee Splash Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "Strike",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Minefield Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Mine"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Minion Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Minion Life Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Minion Speed Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Movement",
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Mirage Archer Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Bow",
+      "Attack",
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Mirror Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Mirror Arrow of Bombarding Clones",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Mirror Arrow of Prismatic Clones",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Prismatic",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Molten Shell",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Physical",
+      "Guard"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Molten Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Molten Strike of the Zenith",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Momentum Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Multiple Totems Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Totem",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Multiple Traps Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Trap"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Multistrike Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Nightblade Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Orb of Storms",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Chaining",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Overcharge Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Penance Brand",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Lightning",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Penance Brand of Conduction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Lightning",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Penance Brand of Dissipation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Lightning",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Perforate",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Perforate of Bloodshed",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Perforate of Duality",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Pestilent Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Petrified Blood",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Phase Run",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Movement",
+      "Physical",
+      "Travel"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Physical to Lightning Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Lightning",
+      "Physical",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Pierce Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Pinpoint Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Plague Bearer",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaos",
+      "AoE"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Poacher's Mark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Spell",
+      "Curse",
+      "Mark"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Poacher's Mark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Spell",
+      "Curse",
+      "Mark"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Point Blank Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Projectile",
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Poisonous Concoction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Chaos",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Poisonous Concoction of Bouncing",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Chaos",
+      "Projectile",
+      "Chaining"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Portal",
+    "class": "Skill Gem",
+    "gem tags": [
+      ""
+    ],
+    "primary attribute": null
+  },
+  {
+    "name": "Power Charge On Critical Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Critical",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Power Siphon",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Attack",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Power Siphon of the Archmage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Precision",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Critical",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Predator Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion",
+      "Spell",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Pride",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Aura",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Prismatic Burst Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Prismatic",
+      "Trigger"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Projection Support",
+    "class": "Support Gem",
+    "gem tags": [
+      ""
+    ],
+    "primary attribute": null
+  },
+  {
+    "name": "Protective Link",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Link"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Pulverise Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "AoE",
+      "Support",
+      "Melee",
+      "Attack"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Puncture",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Physical",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Punishment",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Purifying Flame",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Purifying Flame of Revelations",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Purity of Elements",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Purity of Fire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Purity of Ice",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Purity of Lightning",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Pyroclast Mine",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "AoE",
+      "Aura",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Pyroclast Mine of Sabotage",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "AoE",
+      "Aura",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Quickstep",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Movement",
+      "Travel",
+      "Blink"
+    ],
+    "primary attribute": "none"
+  },
+  {
+    "name": "Rage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Rage Vortex",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Rage Vortex of Berserking",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Rain of Arrows",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Rain of Arrows of Artillery",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Rain of Arrows of Saturation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Raise Spectre",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Raise Spectre of Transience",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Raise Zombie",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Raise Zombie of Falling",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Raise Zombie of Slamming",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Rallying Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Reap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Physical",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Reave",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Reave of Refraction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Reckoning",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trigger",
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Rejuvenation Totem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Totem",
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Returning Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Righteous Fire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Righteous Fire of Arcane Devotion",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Riposte",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trigger",
+      "Attack",
+      "Melee",
+      "Strike",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Rolling Magma",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Projectile",
+      "Chaining"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Ruthless Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Slam",
+      "Support",
+      "Melee",
+      "Attack",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Sacred Wisps Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support",
+      "Trigger",
+      "Duration",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Sacrifice Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Support",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Sadism Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Scorching Ray",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Fire",
+      "Duration",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Scorching Ray of Immolation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Fire",
+      "Duration",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Scourge Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Channelling",
+      "Chaos",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Scourge Arrow of Menace",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Chaos",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Searing Bond",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Totem",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Second Wind Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Seismic Cry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Seismic Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Seismic Trap of Swells",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Shattering Steel",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Shattering Steel of Ammunition",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Physical",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Shield Charge",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Shield Crush",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Shield Crush of the Chieftain",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Fire",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Shock Nova",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Shockwave Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Melee",
+      "Attack",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Shockwave Totem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Totem",
+      "Spell",
+      "AoE",
+      "Physical",
+      "Nova"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Shrapnel Ballista",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Totem",
+      "Physical",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Shrapnel Ballista of Steel",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Totem",
+      "Physical",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Siege Ballista",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Totem",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Siege Ballista of Splintering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Totem",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Sigil of Power",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Arcane"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Siphoning Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Slower Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Smite",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Aura"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Smite of Divine Judgement",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Smoke Mine",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Blink"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Snipe",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Channelling",
+      "Physical",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Sniper's Mark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Curse",
+      "Mark"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Soul Link",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Link"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Soulrend",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Soulrend of Reaping",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Spell",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Soulrend of the Spiral",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Projectile"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spark of the Nova",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spark of Unpredictability",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spectral Helix",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Spectral Shield Throw",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Spectral Shield Throw of Shattering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Spectral Throw",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Spectral Throw of Materialising",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Spell Cascade Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "AoE",
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spell Echo Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spell Totem Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Spell",
+      "Totem"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Spellblade Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spellslinger",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trigger",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Spirit Offering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Split Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Physical",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Split Arrow of Splitting",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Splitting Steel",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Splitting Steel of Ammunition",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Static Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Chaining"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Steelskin",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Guard"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Storm Brand",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Chaining",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Storm Brand of Indecision",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Chaining",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Storm Burst",
+    "class": "Skill Gem",
+    "gem tags": [
+      "AoE",
+      "Spell",
+      "Lightning",
+      "Channelling",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Storm Call",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Storm Rain",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Lightning",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Storm Rain of the Conduit",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Lightning",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Storm Rain of the Fence",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Lightning",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Stormbind",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Channelling",
+      "Lightning",
+      "Duration",
+      "Arcane"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Stormbind of Teleportation",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Channelling",
+      "Lightning",
+      "Duration",
+      "Arcane",
+      "Movement",
+      "Travel",
+      "Blink"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Stormblast Mine",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Mine",
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Aura",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Stun Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Summon Carrion Golem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Carrion Golem of Hordes",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Carrion Golem of Scavenging",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Chaos Golem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Chaos Golem of Hordes",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Chaos Golem of the Maelström",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Chaos",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Flame Golem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Summon Flame Golem of Hordes",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Summon Flame Golem of the Meteor",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Summon Holy Relic",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Holy Relic of Conviction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Ice Golem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Cold",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Summon Ice Golem of Hordes",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Cold",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Summon Ice Golem of Shattering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Cold",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Summon Lightning Golem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Lightning Golem of Hordes",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Phantasm Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Minion"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Raging Spirit",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Raging Spirit of Enormity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Reaper",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Minion",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Reaper of Eviscerating",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Physical",
+      "Minion",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Reaper of Revenants",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Skeletons",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Skeletons of Archers",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Skeletons of Mages",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Prismatic"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Skitterbots",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Mine",
+      "Spell",
+      "Minion",
+      "Cold",
+      "Lightning",
+      "AoE",
+      "Aura"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Summon Stone Golem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell",
+      "Golem",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Summon Stone Golem of Hordes",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell",
+      "Golem",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Summon Stone Golem of Safeguarding",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Minion",
+      "Spell",
+      "Golem",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Sunder",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Sunder of Earthbreaking",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Sweep",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Swift Affliction Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Swift Assembly Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Trap",
+      "Mine"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Swiftbrand Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Brand",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Tectonic Slam",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Tectonic Slam of Cataclysm",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Tempest Shield",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Lightning",
+      "Chaining"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Temporal Chains",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Temporal Rift",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Tornado",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Physical",
+      "AoE",
+      "Orb"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Tornado of Elemental Turbulence",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Physical",
+      "AoE",
+      "Orb",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Prismatic"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Tornado Shot",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Tornado Shot of Cloudburst",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Toxic Rain",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Toxic Rain of Sporeburst",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Toxic Rain of Withering",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Projectile",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Trap and Mine Damage Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Trap",
+      "Mine"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Trap Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Trap"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Trauma Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Physical",
+      "Support",
+      "Melee",
+      "Attack",
+      "Strike",
+      "Duration"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Trinity Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Unbound Ailments Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Unearth",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Unleash Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Spell",
+      "Support"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Urgent Orders Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Warcry",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Absolution",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Physical",
+      "Lightning",
+      "Vaal",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Ancestral Warchief",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Vaal",
+      "Melee",
+      "Slam"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Animate Weapon",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Duration",
+      "Minion",
+      "Spell",
+      "Vaal",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Arc",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaining",
+      "Vaal",
+      "Lightning",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Arctic Armour",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Cold",
+      "Vaal"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Blade Flurry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Channelling",
+      "Physical",
+      "Vaal",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Blade Vortex",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Blight",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Chaos",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Nova",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Breach",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Vaal"
+    ],
+    "primary attribute": "none"
+  },
+  {
+    "name": "Vaal Burning Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Vaal",
+      "Fire",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Caustic Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Vaal",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Clarity",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Cleave",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Vaal",
+      "Duration",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Cold Snap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Cold"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Cyclone",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Melee",
+      "Movement",
+      "Channelling",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Detonate Dead",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Discipline",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Domination",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Vaal",
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Double Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Duration",
+      "Vaal",
+      "Physical"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Earthquake",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Fireball",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Projectile",
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Fire"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Firestorm",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Vaal"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Flameblast",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Fire",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Flicker Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Movement",
+      "Vaal",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Glacial Hammer",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Duration",
+      "AoE",
+      "Vaal",
+      "Cold"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Grace",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Ground Slam",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Vaal",
+      "Slam",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Haste",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Ice Nova",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Cold",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Ice Shot",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Cold",
+      "Vaal",
+      "Duration",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Immortal Call",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Vaal",
+      "Guard"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Impurity of Fire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Impurity of Ice",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Cold"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Impurity of Lightning",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Lightning Arrow",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Vaal",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Lightning Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Duration",
+      "Vaal",
+      "Lightning",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Lightning Trap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trap",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Lightning Warp",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Lightning",
+      "Movement",
+      "Travel"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Molten Shell",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Physical",
+      "Vaal",
+      "Guard"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Molten Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Chaining",
+      "Vaal"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Power Siphon",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Critical",
+      "Attack",
+      "Projectile",
+      "Vaal"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Rain of Arrows",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Vaal",
+      "Bow"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Reap",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Physical",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Reave",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "AoE",
+      "Vaal",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Rejuvenation Totem",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Totem",
+      "Aura",
+      "Spell",
+      "AoE",
+      "Vaal"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Righteous Fire",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Vaal",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Smite",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Aura",
+      "Vaal"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vaal Spark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Spectral Throw",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Vaal"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Storm Call",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Summon Skeletons",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Vaal"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vaal Venom Gyre",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Chaos",
+      "Duration",
+      "Vaal"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vaal Volcanic Fissure",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Melee",
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Slam",
+      "Fire",
+      "Vaal"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vampiric Link",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Duration",
+      "Link"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vengeance",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Trigger",
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Venom Gyre",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Projectile",
+      "Chaos",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vicious Projectiles Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Projectile",
+      "Attack",
+      "Physical",
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vigilant Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Vile Toxins Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Viper Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Chaos"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Viper Strike of the Mamba",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Chaos"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Vitality",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Void Manipulation Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Support"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Void Sphere",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical",
+      "Chaos",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Void Sphere of Rending",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical",
+      "Chaos",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Volatile Dead",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Volatile Dead of Confinement",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Volatile Dead of Seething",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Volatility Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Attack",
+      "Support"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Volcanic Fissure",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Melee",
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Slam",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Volcanic Fissure of Snaking",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Melee",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Fire"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Volley Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Support",
+      "Projectile"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Voltaxic Burst",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Lightning",
+      "Nova",
+      "Duration"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vortex",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vortex of Projection",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Nova"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Vulnerability",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Physical",
+      "Hex"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "War Banner",
+    "class": "Skill Gem",
+    "gem tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Warlord's Mark",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "Curse",
+      "Mark"
+    ],
+    "primary attribute": "strength"
+  },
+  {
+    "name": "Wave of Conviction",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Fire",
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Whirling Blades",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Movement",
+      "Travel",
+      "Melee"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Wild Strike",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Projectile",
+      "AoE",
+      "Chaining",
+      "Prismatic"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Wild Strike of Extremes",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Projectile",
+      "AoE",
+      "Chaining",
+      "Prismatic"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Winter Orb",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Cold",
+      "Spell",
+      "Channelling",
+      "AoE",
+      "Duration",
+      "Projectile",
+      "Orb"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Wintertide Brand",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Brand"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Wither",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Channelling"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Withering Step",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Travel",
+      "AoE",
+      "Chaos",
+      "Movement",
+      "Blink",
+      "Spell",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Withering Touch Support",
+    "class": "Support Gem",
+    "gem tags": [
+      "Chaos",
+      "Physical",
+      "Attack",
+      "Support",
+      "Duration"
+    ],
+    "primary attribute": "dexterity"
+  },
+  {
+    "name": "Wrath",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "Zealotry",
+    "class": "Skill Gem",
+    "gem tags": [
+      "Aura",
+      "Critical",
+      "Spell",
+      "AoE"
+    ],
+    "primary attribute": "intelligence"
+  },
+  {
+    "name": "{{subst:PAGENAME}}",
+    "class": "Skill Gem",
+    "gem tags": [
+      ""
+    ],
+    "primary attribute": null
+  },
+  {
+    "name": "{{subst:PAGENAME}}",
+    "class": "Skill Gem",
+    "gem tags": [
+      ""
+    ],
+    "primary attribute": null
+  }
+]
