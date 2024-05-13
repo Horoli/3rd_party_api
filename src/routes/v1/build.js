@@ -37,7 +37,8 @@ module.exports = {
         if (
           data["name"].includes(" of ") ||
           data["name"].includes("Vaal") ||
-          data["name"].includes("subst")
+          data["name"].includes("subst") ||
+          data["name"].includes("Portal")
         ) {
           return false;
         }
