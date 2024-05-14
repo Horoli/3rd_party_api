@@ -1,4 +1,5 @@
 const fs = require("fs");
+// const SkillGem = require("../../../skill_gem_crawler");
 
 module.exports = {
   "GET /": {
@@ -59,4 +60,12 @@ module.exports = {
       };
     },
   },
+  // "GET /test": {
+  //   middlewares: [],
+  //   async handler(req, rep) {
+  //     const asd = new SkillGem();
+  //     const json = await Promise.all([asd.getImageUrl()]);
+  //     console.log(json);
+  //   },
+  // },
 };

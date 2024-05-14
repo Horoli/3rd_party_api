@@ -5488,19 +5488,5 @@
     "gem tags": ["Aura", "Critical", "Spell", "AoE"],
     "primary attribute": "intelligence",
     "inventory icon": "File:Zealotry inventory icon.png"
-  },
-  {
-    "name": "{{subst:PAGENAME}}",
-    "class": "Skill Gem",
-    "gem tags": [""],
-    "primary attribute": null,
-    "inventory icon": "File:{{subst:PAGENAME}} inventory icon.png"
-  },
-  {
-    "name": "{{subst:PAGENAME}}",
-    "class": "Skill Gem",
-    "gem tags": [""],
-    "primary attribute": null,
-    "inventory icon": "File:{{subst:PAGENAME}} inventory icon.png"
   }
 ]
