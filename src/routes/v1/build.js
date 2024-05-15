@@ -1,3 +1,4 @@
+const GeneralResponse = require("@Utility/general_response");
 const fs = require("fs");
 // const SkillGem = require("../../../skill_gem_crawler");
 
@@ -39,7 +40,8 @@ module.exports = {
           data["name"].includes(" of ") ||
           data["name"].includes("Vaal") ||
           data["name"].includes("subst") ||
-          data["name"].includes("Portal")
+          data["name"].includes("Portal") ||
+          data["name"].includes("Blood and Sand")
         ) {
           return false;
         }
@@ -53,19 +55,37 @@ module.exports = {
         return true;
       });
 
-      return {
+      return new GeneralResponse({
         statusCode: 200,
         length: getSkillGems.length,
         data: getSkillGems,
-      };
+      });
     },
   },
-  // "GET /test": {
-  //   middlewares: [],
-  //   async handler(req, rep) {
-  //     const asd = new SkillGem();
-  //     const json = await Promise.all([asd.getImageUrl()]);
-  //     console.log(json);
-  //   },
-  // },
+  "GET /image": {
+    middlewares: [],
+    async handler(req, rep) {
+      const { name } = req.query;
+
+      const skillGemIcons = fs.readFileSync("./skill_gem_icon.json");
+      const skillGemInfos = fs.readFileSync("./skill_gem_info.json");
+      const jsonSkillGemIcons = JSON.parse(skillGemIcons);
+      const jsonSkillGemInfos = JSON.parse(skillGemInfos);
+
+      const getSkillGemImage = jsonSkillGemIcons.filter((e) => e.name === name);
+      const getSkillGemInfo = jsonSkillGemInfos.filter((e) => e.name === name);
+      console.log(getSkillGemInfo[0]);
+
+      const returnValue = {
+        ...getSkillGemInfo[0],
+        ...getSkillGemImage[0],
+      };
+
+      return new GeneralResponse({
+        statusCode: 200,
+        message: "get skill gem image",
+        data: returnValue,
+      });
+    },
+  },
 };

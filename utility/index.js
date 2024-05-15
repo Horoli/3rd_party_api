@@ -14,6 +14,11 @@ class Utility {
     return new Date(getDate.getTime() - timezoneOffsetToMiliseconds);
   }
 
+  static setInterval(callback, interval) {
+    callback();
+    return setInterval(callback, interval);
+  }
+
   static async hashPassword(password) {
     const salt = bcrypt.genSaltSync(10);
     return bcrypt.hashSync(password, salt);
