@@ -1,6 +1,6 @@
 const GeneralResponse = require("@Utility/general_response");
+const path = require("path");
 const fs = require("fs");
-// const SkillGem = require("../../../skill_gem_crawler");
 
 module.exports = {
   "GET /": {
@@ -9,7 +9,18 @@ module.exports = {
       const { tags, attribute } = req.query;
 
       const selectedTags = JSON.parse(tags);
-      const json = fs.readFileSync("./skill_gem.json");
+
+      // const filePath = path.join("")
+
+      const skillGem = path.resolve(
+        __dirname,
+        "..",
+        "..",
+        "assets",
+        "json",
+        "skill_gem.json"
+      );
+      const json = fs.readFileSync(skillGem);
       const jsonData = JSON.parse(json);
 
       const getSkillGems = jsonData.filter((data) => {
@@ -67,8 +78,27 @@ module.exports = {
     async handler(req, rep) {
       const { name } = req.query;
 
-      const skillGemIcons = fs.readFileSync("./skill_gem_icon.json");
-      const skillGemInfos = fs.readFileSync("./skill_gem_info.json");
+      // console.log(__dirname);
+
+      const iconPath = path.resolve(
+        __dirname,
+        "..",
+        "..",
+        "assets",
+        "json",
+        "skill_gem_icon.json"
+      );
+
+      const infoPath = path.resolve(
+        __dirname,
+        "..",
+        "..",
+        "assets",
+        "json",
+        "skill_gem_info.json"
+      );
+      const skillGemIcons = fs.readFileSync(iconPath);
+      const skillGemInfos = fs.readFileSync(infoPath);
       const jsonSkillGemIcons = JSON.parse(skillGemIcons);
       const jsonSkillGemInfos = JSON.parse(skillGemInfos);
 
