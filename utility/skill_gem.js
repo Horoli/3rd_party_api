@@ -2,13 +2,14 @@ const fs = require("fs");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const Utility = require(".");
+const FilePath = require("./file_path");
 
 class SkillGem {
   constructor() {
     this.poeWikiBaseUrl = "https://www.poewiki.net";
     this.poeWikiUrl = "https://www.poewiki.net/wiki";
     this.poeDBUrl = "https://poedb.tw/kr";
-    this.skillGemJson = JSON.parse(fs.readFileSync("./skill_gem.json"));
+    this.skillGemJson = JSON.parse(fs.readFileSync(FilePath.skillGemJson));
     this.skillGemIconsJson = [];
     this.skillGemInfoJson = [];
   }
