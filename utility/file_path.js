@@ -1,29 +1,28 @@
-const fs = require("fs");
 const path = require("path");
 
 class FilePath {
-  static jsonPath(file) {
-    const getJsonPath = path.resolve(
+  static getAssetJsonPath(filename) {
+    const getPath = path.resolve(
       __dirname,
       "..",
       "src",
       "assets",
       "json",
-      `${file}`
+      `${filename}`
     );
-    return getJsonPath;
+    return getPath;
   }
 
   static get skillGemJson() {
-    return this.jsonPath("skill_gem.json");
+    return this.getAssetJsonPath("skill_gem.json");
   }
 
   static get skillGemInfoJson() {
-    return this.jsonPath("skill_gem_info.json");
+    return this.getAssetJsonPath("skill_gem_info.json");
   }
 
   static get skillGemIconJson() {
-    return this.jsonPath("skill_gem_icon.json");
+    return this.getAssetJsonPath("skill_gem_icon.json");
   }
 }
 
