@@ -14,11 +14,25 @@ class SkillGem {
     this.skillGemInfoJson = [];
   }
 
+  // 3.24 skillgem length = 726
+  // 3.25 skillgem length = unknown
+
+  /**
+   * 크롤링 순서
+   *  1. POE WIKI cargoQuery에서 skill_gem.json을 최신화함
+   *    - 링크 : https://www.poewiki.net/index.php?title=Special%3ACargoQuery
+   *    - tables : items, skill_gems
+   *    - fields : items.name,items.class,skill_gems.gem_tags,skill_gems.primary_attribute, items.inventory_icon, items.base_item_page
+   *    - join on : items.name=skill_gems._pageName
+   *  2.  [getSkillGemIcons] 실행
+   *  3.  [getSkillGemInfos] 실행
+   */
+
   /**
    * from poeWiki
    */
   async #getPoeWikiJson(index) {
-    const path = this.skillGemJson[index]["inventory icon"].replace(/ /g, "_");
+    const path = this.skillGemJson[index]["inve행tory icon"].replace(/ /g, "_");
 
     await axios.get(`${this.poeWikiUrl}/${path}`).then(async (response) => {
       const html = response.data;
