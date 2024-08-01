@@ -19,10 +19,12 @@ class SkillGem {
 
   /**
    * 크롤링 순서
+   *  20240801171425
+   * https://www.poewiki.net/index.php?title=Special:CargoExport&tables=items%2C+skill_gems&join+on=items.name%3Dskill_gems._pageName&fields=items.name%2Citems.class%2Cskill_gems.gem_tags%2Cskill_gems.primary_attribute%2C+items.inventory_icon%2C+items.base_item_page%2C+items.is_in_game&where=items.frame_type%3D%22gem%22&order+by=&limit=800&format=json
    *  1. POE WIKI cargoQuery에서 skill_gem.json을 최신화함
    *    - 링크 : https://www.poewiki.net/index.php?title=Special%3ACargoQuery
    *    - tables : items, skill_gems
-   *    - fields : items.name,items.class,skill_gems.gem_tags,skill_gems.primary_attribute, items.inventory_icon, items.base_item_page
+   *    - fields : items.name,items.class,skill_gems.gem_tags,skill_gems.primary_attribute, items.inventory_icon, items.base_item_page, items.is_in_game
    *    - join on : items.name=skill_gems._pageName
    *  2.  [getSkillGemIcons] 실행
    *  3.  [getSkillGemInfos] 실행
@@ -32,7 +34,7 @@ class SkillGem {
    * from poeWiki
    */
   async #getPoeWikiJson(index) {
-    const path = this.skillGemJson[index]["inve행tory icon"].replace(/ /g, "_");
+    const path = this.skillGemJson[index]["inventory icon"].replace(/ /g, "_");
 
     await axios.get(`${this.poeWikiUrl}/${path}`).then(async (response) => {
       const html = response.data;
@@ -52,6 +54,8 @@ class SkillGem {
 
       this.skillGemIconsJson.push(data);
     });
+    // if (this.skillGemJson[index]["is in game"] === 1) {
+    // }
   }
 
   /**
@@ -138,8 +142,10 @@ class SkillGem {
    * poeWiki에서 skillGemIcon을 가져와 base64로 저장
    * setInterval은 1초마다 작동
    */
-  async getSkillGemIcons() {
+  async getSkillGemIconsForWiki() {
     let index = 0;
+
+    console.log(`total ${this.skillGemJson.length}`);
 
     const interval = Utility.setInterval(async () => {
       if (index === this.skillGemJson.length) {
@@ -152,7 +158,11 @@ class SkillGem {
         clearInterval(interval);
         return;
       }
-      this.#getPoeWikiJson(index);
+
+      if (this.skillGemJson[index]["is in game"] === 1) {
+        this.#getPoeWikiJson(index);
+      }
+
       index++;
     }, 1000);
   }
@@ -164,7 +174,7 @@ class SkillGem {
    * index = 477에 Projection Support는 없는 값임
    * index = 672에 Vaal Lightning Trap 스킵됨
    */
-  async getSkillGemInfos() {
+  async getSkillGemInfosForDB() {
     let index = 0;
     console.log(this.skillGemJson.length);
 
