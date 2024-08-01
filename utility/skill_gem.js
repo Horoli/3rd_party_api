@@ -188,7 +188,13 @@ class SkillGem {
         clearInterval(interval);
         return;
       }
-      this.#getPoeDBJson(index);
+
+      console.log(this.skillGemJson[index]["is in game"]);
+
+      if (this.skillGemJson[index]["is in game"] === 1) {
+        this.#getPoeDBJson(index);
+      }
+
       index++;
     }, 2000);
   }
