@@ -22,7 +22,8 @@ module.exports = {
           data["gem tags"].includes("Mark") ||
           data["gem tags"].includes("Guard") ||
           data["gem tags"].includes("Movement") ||
-          data["gem tags"].includes("Warcry")
+          data["gem tags"].includes("Warcry") ||
+          data["is in game"] === 0
         ) {
           return false;
         }
