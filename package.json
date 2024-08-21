@@ -21,6 +21,7 @@
     "fastify": "^4.26.2",
     "mongodb": "^6.5.0",
     "path": "^0.12.7",
+    "poe-api-manager": "^1.2.14",
     "steamapi": "^3.0.8"
   },
   "exports": {
