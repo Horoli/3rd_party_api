@@ -4,6 +4,7 @@ const Path = require("path");
 const Cors = require("@fastify/cors");
 const MongoDB = require("@Utility/mongodb");
 const SteamAPIInstance = require("@Utility/steamapi");
+const PoeNinja = require("@Utility/poe_ninja");
 
 class WebServer {
   constructor(opts = {}) {
@@ -122,6 +123,7 @@ class WebServer {
       port: this.$opts.port,
     });
 
+    console.log(`[${new Date().toLocaleString()}]`, "port :", this.$opts.port);
     console.log(`[${new Date().toLocaleString()}] Server Started`);
   }
 }

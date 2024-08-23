@@ -4,12 +4,10 @@ module.exports = {
   "GET /": {
     middlewares: [],
     async handler(req, res) {
-      // const ninjaAPI = new NinjaAPI("Settlers");
-
-      // await ninjaAPI.currencyView.currency.getData().then((data) => {
-      //   console.log(data);
-      // });
-      await PoeNinja.get();
+      const asd = await PoeNinja.get("Settlers");
+      return {
+        data: asd,
+      };
     },
   },
 };
