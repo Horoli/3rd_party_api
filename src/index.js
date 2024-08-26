@@ -12,11 +12,12 @@ class WebServer {
     this.$webServer = Fastify({
       trustProxy: true,
     });
-    this.$middlewares = [];
 
+    this.$middlewares = [];
     this.$_initMiddlewares();
     this.$_initMongoDB();
     this.$_initRoutes();
+    this.$_initInverval();
   }
   $_initMiddlewares() {
     const middlewaresPath = Path.join(__dirname, "./middlewares");
@@ -37,6 +38,12 @@ class WebServer {
       port: 27017,
       db: dbName,
     });
+  }
+  async $_initInverval() {
+    await PoeNinja.setCache();
+    setInterval(async () => {
+      await PoeNinja.setCache();
+    }, 1000 * 60 * 60 * 3);
   }
   $_initRoutes() {
     const routesPath = Path.join(__dirname, "./routes");
