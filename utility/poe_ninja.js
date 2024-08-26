@@ -41,8 +41,8 @@ class PoeNinja {
     return filtered.map(async (data) => {
       const result = await Axios({
         method: "post",
-        url: "http://127.0.0.1:7100/image",
-        // url: "http://172.16.0.6:7100/image",
+        // url: "http://127.0.0.1:7100/image",
+        url: "http://172.16.0.6:7100/image",
         headers: {
           "hash-only": "true",
         },
