@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@fastify/cors": "^9.0.1",
-    "axios": "^1.6.8",
+    "axios": "^1.7.5",
     "bcryptjs": "^2.4.3",
     "better-module-alias": "^1.2.1",
     "cheerio": "^1.0.0-rc.12",
