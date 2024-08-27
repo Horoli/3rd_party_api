@@ -1,6 +1,7 @@
+const Constants = require("@Utility/constants");
+const GeneralResponse = require("@Utility/general_response");
 const PoeNinja = require("@Utility/poe_ninja");
 const Axios = require("axios");
-const Stream = require("stream");
 
 module.exports = {
   "GET /": {
@@ -8,7 +9,11 @@ module.exports = {
     async handler(req, rep) {
       const ninjaCache = await PoeNinja.getCache();
 
-      return ninjaCache;
+      return new GeneralResponse({
+        statusCode: 200,
+        message: "get poe ninja cache",
+        data: ninjaCache,
+      });
     },
   },
   /// cache server proxy
@@ -19,7 +24,8 @@ module.exports = {
       try {
         const response = await Axios({
           method: "GET",
-          url: `http://172.16.0.6:7100/image/${uuid}`,
+          url: `${Constants.URL_IMAGE_CACHE}/${uuid}`,
+          // url: `http://172.16.0.6:7100/image/${uuid}`,
           // url: `http://127.0.0.1:7100/image/${uuid}`,
           responseType: "stream",
         });

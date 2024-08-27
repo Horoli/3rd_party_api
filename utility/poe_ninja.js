@@ -1,4 +1,5 @@
 const Axios = require("axios");
+const Constants = require("@Utility/constants");
 const { NinjaAPI } = require("poe-api-manager");
 
 class PoeNinja {
@@ -7,8 +8,8 @@ class PoeNinja {
   static #cache = {};
   static #standardChaosValue = 50;
   static #currencyFilter = ["id", "name", "icon", "chaosEquivalent"];
-  static #itemFilter = ["name", "icon", "chaosValue"];
-  static #mapFilter = ["name", "icon", "chaosValue", "mapTier"];
+  static #itemFilter = ["id", "name", "icon", "chaosValue"];
+  static #mapFilter = ["id", "name", "icon", "chaosValue", "mapTier"];
 
   static async getCache() {
     return this.#cache;
@@ -16,7 +17,7 @@ class PoeNinja {
 
   static async setCache() {
     console.log(`[${new Date().toLocaleString()}] Poe.ninja cache updating...`);
-
+    const getDivineOrb = await this.#getDivineOrb();
     const getCurrency = await this.#getCurrency();
     const getFragment = await this.#getFragment();
     const getScarab = await this.#getScarab();
@@ -25,6 +26,7 @@ class PoeNinja {
 
     this.#cache = {
       date: new Date().toLocaleString(),
+      divineOrb: getDivineOrb.chaosEquivalent,
       currency: getCurrency,
       fragment: getFragment,
       scarab: getScarab,
@@ -41,8 +43,9 @@ class PoeNinja {
     return filtered.map(async (data) => {
       const result = await Axios({
         method: "post",
+        url: `${Constants.URL_IMAGE_CACHE}`,
         // url: "http://127.0.0.1:7100/image",
-        url: "http://172.16.0.6:7100/image",
+        // url: "http://172.16.0.6:7100/image",
         headers: {
           "hash-only": "true",
         },
@@ -55,6 +58,14 @@ class PoeNinja {
         icon: result.headers["image-hash"],
       };
     });
+  }
+
+  static async #getDivineOrb() {
+    return await this.ninjaApi.currencyView.currency
+      .getQuickCurrency()
+      .then((data) => {
+        return data;
+      });
   }
 
   static async #getCurrency() {
