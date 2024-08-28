@@ -26,6 +26,7 @@ class PoeNinja {
 
     this.#cache = {
       date: new Date().toLocaleString(),
+      standardChaosValue: this.#standardChaosValue,
       divineOrb: getDivineOrb.chaosEquivalent,
       currency: getCurrency,
       fragment: getFragment,

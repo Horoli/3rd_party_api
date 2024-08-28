@@ -20,7 +20,6 @@ module.exports = {
   "GET /image/:uuid": {
     async handler(req, rep) {
       const { uuid } = req.params;
-      console.log(uuid);
       try {
         const response = await Axios({
           method: "GET",
