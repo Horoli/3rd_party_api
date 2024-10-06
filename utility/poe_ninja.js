@@ -11,8 +11,18 @@ class PoeNinja {
   static #itemFilter = ["id", "name", "icon", "chaosValue"];
   static #mapFilter = ["id", "name", "icon", "chaosValue", "mapTier"];
 
-  static async getCache() {
-    return this.#cache;
+  /**
+   *
+   * @param {String} filter : allScarab, ...
+   * @returns
+   */
+  static async getCache(filter) {
+    if (!!filter) {
+      return this.#cache[filter];
+    }
+
+    const { allScarab, ...filteredCache } = this.#cache;
+    return filteredCache;
   }
 
   static async setCache() {
@@ -21,6 +31,7 @@ class PoeNinja {
     const getCurrency = await this.#getCurrency();
     const getFragment = await this.#getFragment();
     const getScarab = await this.#getScarab();
+    const getAllScarab = await this.#getAllScarab();
     const getInvitation = await this.#getInvitation();
     const getMaps = await this.#getMaps();
 
@@ -31,6 +42,7 @@ class PoeNinja {
       currency: getCurrency,
       fragment: getFragment,
       scarab: getScarab,
+      allScarab: getAllScarab,
       invitation: getInvitation,
       map: getMaps,
     };
@@ -95,6 +107,17 @@ class PoeNinja {
 
     return await Promise.all(this.#postImage(filtered));
   }
+
+  static async #getAllScarab() {
+    const getScarabs = await this.ninjaApi.itemView.scarab
+      .getData(this.#itemFilter)
+      .then((data) => {
+        return data;
+      });
+
+    return await Promise.all(this.#postImage(getScarabs));
+  }
+
   static async #getScarab() {
     const getScarabs = await this.ninjaApi.itemView.scarab
       .getData(this.#itemFilter)

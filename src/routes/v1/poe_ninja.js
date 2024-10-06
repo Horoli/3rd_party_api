@@ -18,6 +18,7 @@ module.exports = {
   },
   /// cache server proxy
   "GET /image/:uuid": {
+    middlewares: [],
     async handler(req, rep) {
       const { uuid } = req.params;
       try {
@@ -35,6 +36,18 @@ module.exports = {
       } catch (err) {
         throw Error(err);
       }
+    },
+  },
+
+  "GET /scarab": {
+    middlewares: [],
+    async handler(req, rep) {
+      const getAllScarab = await PoeNinja.getCache("allScarab");
+      return new GeneralResponse({
+        statusCode: 200,
+        message: "get complete",
+        data: getAllScarab,
+      });
     },
   },
 };
