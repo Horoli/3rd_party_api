@@ -18,7 +18,10 @@ class PoeNinja {
    */
   static async getCache(filter) {
     if (!!filter) {
-      return this.#cache[filter];
+      return {
+        date: this.#cache.date,
+        filteredData: this.#cache[filter],
+      };
     }
 
     const { allScarab, ...filteredCache } = this.#cache;
