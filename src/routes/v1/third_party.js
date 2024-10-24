@@ -131,6 +131,8 @@ module.exports = {
       const { tag, platform, id } = req.params;
       let { type } = req.query;
 
+      type = type === undefined ? Constants.TYPE.PATH_OF_EXILE : parseInt(type);
+
       console.log(type, tag, platform, id);
 
       const thirdPartyCol = await MongoDB.getCollection(
@@ -140,7 +142,6 @@ module.exports = {
 
       const tagIsAll = tag === "ALL" ? true : false;
       // 입력받은 type이 null이면 0(pathofExile), 아니면 입력받은 type
-      type = type === undefined ? Constants.TYPE.PATH_OF_EXILE : parseInt(type);
 
       query = {
         "status.enable": true,
