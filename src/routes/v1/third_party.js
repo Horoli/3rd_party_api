@@ -36,6 +36,14 @@ module.exports = {
           convertType = Constants.TYPE.PATH_OF_EXILE;
           break;
         }
+        case Constants.POE2: {
+          convertType = Constants.TYPE.PATH_OF_EXILE;
+          break;
+        }
+        // TODO : pathOfExile2 추가
+        /**
+         *
+         */
         case Constants.WOW: {
           convertType = Constants.TYPE.WOW;
           break;
@@ -126,11 +134,13 @@ module.exports = {
       );
       const imageCol = await MongoDB.getCollection(Document.collections.IMAGE);
 
-      const tagNullCheck = !tag;
+      const tagIsAll = tag === "ALL" ? true : false;
+
+      console.log(tagIsAll);
 
       let getThirdParties;
 
-      switch (tagNullCheck) {
+      switch (tagIsAll) {
         case true: {
           getThirdParties = await Document.getDatas({
             collection: thirdPartyCol,

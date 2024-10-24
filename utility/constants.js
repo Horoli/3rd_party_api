@@ -1,5 +1,6 @@
 class Constants {
   static POE = "PATHOFEXILE";
+  static POE2 = "PATHOFEXILE2";
   static WOW = "WORLDOFWARCRAFT";
 
   static IS_LOCAL = false;
