@@ -12,7 +12,8 @@ class Constants {
 
   static TYPE = {
     PATH_OF_EXILE: 0,
-    WOW: 1,
+    PATH_OF_EXILE2: 1,
+    WOW: 2,
   };
 }
 

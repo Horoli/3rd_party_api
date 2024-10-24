@@ -122,12 +122,16 @@ module.exports = {
     },
   },
 
+  /**
+   *  type : 0(pathofExile), 1(pathofExile2), 2(wow)
+   */
   "GET /:tag/platform/:platform/id/:id": {
     middlewares: ["visit"],
     async handler(req, rep) {
       const { tag, platform, id } = req.params;
+      let { type } = req.query;
 
-      console.log(tag, platform, id);
+      console.log(type, tag, platform, id);
 
       const thirdPartyCol = await MongoDB.getCollection(
         Document.collections.THIRD_PARTY
@@ -135,71 +139,39 @@ module.exports = {
       const imageCol = await MongoDB.getCollection(Document.collections.IMAGE);
 
       const tagIsAll = tag === "ALL" ? true : false;
+      // 입력받은 type이 null이면 0(pathofExile), 아니면 입력받은 type
+      type = type === undefined ? Constants.TYPE.PATH_OF_EXILE : parseInt(type);
 
-      console.log(tagIsAll);
-
-      let getThirdParties;
-
-      switch (tagIsAll) {
-        case true: {
-          getThirdParties = await Document.getDatas({
-            collection: thirdPartyCol,
-            query: {
-              "status.enable": true,
-            },
-            queryOptions: {
-              projection: { _id: 0, status: 0 },
-            },
-          });
-
-          await Promise.all(
-            await getThirdParties.map(async (thirdParty) => {
-              const getImage = await imageCol.findOne(
-                {
-                  id: thirdParty.images.thumbnail,
-                },
-                { projection: { _id: 0, status: 0 } }
-              );
-
-              thirdParty.images.thumbnail = getImage.contents;
-            })
-          );
-
-          break;
-        }
-        /**
-         * @description client에서 보여주는 데이터는 아래 코드로 처리
-         */
-        case false: {
-          getThirdParties = await Document.getDatas({
-            collection: thirdPartyCol,
-            query: {
-              tags: {
-                $in: [tag],
-              },
-              "status.enable": true,
-            },
-            queryOptions: {
-              projection: { _id: 0, status: 0 },
-            },
-          });
-
-          await Promise.all(
-            await getThirdParties.map(async (thirdParty) => {
-              const getImage = await imageCol.findOne(
-                {
-                  id: thirdParty.images.thumbnail,
-                },
-                { projection: { _id: 0, status: 0 } }
-              );
-
-              thirdParty.images.thumbnail = getImage.contents;
-            })
-          );
-
-          break;
-        }
+      query = {
+        "status.enable": true,
+        type: type,
+      };
+      if (tagIsAll === false) {
+        query.tags = {
+          $in: [tag],
+        };
       }
+
+      const getThirdParties = await Document.getDatas({
+        collection: thirdPartyCol,
+        query: query,
+        queryOptions: {
+          projection: { _id: 0, status: 0 },
+        },
+      });
+
+      await Promise.all(
+        await getThirdParties.map(async (thirdParty) => {
+          const getImage = await imageCol.findOne(
+            {
+              id: thirdParty.images.thumbnail,
+            },
+            { projection: { _id: 0, status: 0 } }
+          );
+
+          thirdParty.images.thumbnail = getImage.contents;
+        })
+      );
 
       return new GeneralResponse({
         statusCode: 200,
