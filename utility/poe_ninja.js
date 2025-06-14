@@ -4,7 +4,8 @@ const { NinjaAPI } = require("poe-api-manager");
 
 class PoeNinja {
   constructor() {}
-  static ninjaApi = new NinjaAPI("Settlers");
+
+  static ninjaApi = new NinjaAPI("Mercenaries");
   static #cache = {};
   static #standardChaosValue = 50;
   static #currencyFilter = ["id", "name", "icon", "chaosEquivalent"];
