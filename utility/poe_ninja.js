@@ -5,7 +5,7 @@ const { NinjaAPI } = require("poe-api-manager");
 class PoeNinja {
   constructor() {}
 
-  static ninjaApi = new NinjaAPI("Keepers");
+  static ninjaApi = new NinjaAPI("Mirage");
   static #cache = {};
   static #standardChaosValue = 50;
   static #currencyFilter = ["id", "name", "icon", "chaosEquivalent"];
@@ -52,7 +52,7 @@ class PoeNinja {
     };
 
     console.log(
-      `[${new Date().toLocaleString()}] Poe.ninja cache update complete`
+      `[${new Date().toLocaleString()}] Poe.ninja cache update complete`,
     );
   }
 
