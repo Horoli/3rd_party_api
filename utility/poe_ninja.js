@@ -140,7 +140,7 @@ class PoeNinja {
       lines.forEach((line) => {
         const itemName = idToNameMap.get(line.id);
         if (itemName) {
-          nameToPriceMap.set(itemName, line.primaryValue);
+          nameToPriceMap.set(itemName, Math.round(line.primaryValue));
         }
       });
 
