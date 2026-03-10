@@ -47,11 +47,15 @@ node app.js
 ## 📜 개발 컨벤션 (Conventions)
 1. **Module Alias:** `better-module-alias`를 사용하여 `@Utility` 별칭으로 `utility/` 폴더에 접근합니다.
 2. **Route Loading:** `src/index.js`의 `_loadRoutes` 메서드가 `src/routes/` 폴더 내의 파일들을 재귀적으로 읽어 자동으로 API 엔드포인트를 등록합니다.
-   - 예: `src/routes/v1/steam.js` 내의 `GET /` 정의는 `/v1/steam/` 엔드포인트가 됩니다.
 3. **Singleton Pattern:** MongoDB와 SteamAPI 등 주요 리소스는 `sharedInstance()` 또는 클래스 멤버 심볼을 통한 싱글톤 패턴으로 관리됩니다.
-4. **Response Format:** 모든 API 응답은 `utility/general_response.js`를 통해 규격화된 포맷으로 전달하는 것을 권장합니다.
+4. **Scarab Data Integration:**
+   - Scarab의 이름과 이미지는 기존 라이브러리(`poe-api-manager`)를 사용하지만, 가격 정보(`chaosValue`)는 최신화를 위해 신규 **Exchange API**(`poe.ninja/poe1/api/economy/exchange/current/overview`)에서 가져옵니다.
+   - 라이브러리 데이터와 신규 API 데이터는 **아이템 이름(`name`)을 기준으로 매칭**합니다.
+   - 가격 데이터(`primaryValue`)는 가독성을 위해 **정수로 반올림(`Math.round`)**하여 처리합니다.
+5. **Response Format:** 모든 API 응답은 `utility/general_response.js`를 통해 규격화된 포맷으로 전달하는 것을 권장합니다.
 
 ## ⚠️ 주의 사항
 - **Hardcoded Config:** 현재 MongoDB 연결 정보 및 일부 API 키가 `src/index.js`와 `utility/` 내부에 직접 작성되어 있습니다. 운영 환경 적용 시 `.env`로의 분리가 필요합니다.
+- **Git Ignore:** `ref/` 폴더는 데이터 분석 및 참고용 파일들이 포함되어 있으므로 Git 관리 대상에서 제외(`ref/`)되어 있습니다.
 - **Steam API Auth:** `src/index.js`의 `start()` 메서드에서 SteamAPI를 더미 키(`"aaa"`)로 초기화하고 있으므로 실제 연동을 위해서는 유효한 키가 필요합니다.
 - **External Dependencies:** PoE Ninja 등 외부 API 데이터는 3시간 간격으로 캐싱(`$_initInverval`)됩니다.
