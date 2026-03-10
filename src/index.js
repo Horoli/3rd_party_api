@@ -30,13 +30,15 @@ class WebServer {
     }
   }
   async $_initMongoDB() {
-    const dbName = "3rd_party";
+    const dbName = process.env.MONGODB_DB || "3rd_party";
     const mongoDB = await MongoDB.sharedInstance();
 
     await mongoDB.connect({
-      host: "172.16.0.7",
-      port: 27017,
+      host: process.env.MONGODB_HOST || "172.16.0.7",
+      port: parseInt(process.env.MONGODB_PORT) || 27017,
       db: dbName,
+      user: process.env.MONGODB_USER,
+      pass: process.env.MONGODB_PASS,
     });
   }
   async $_initInverval() {
@@ -119,7 +121,9 @@ class WebServer {
   }
 
   async start() {
-    await SteamAPIInstance.sharedInstance.connect("aaa");
+    await SteamAPIInstance.sharedInstance.connect(
+      process.env.STEAM_API_KEY || "aaa",
+    );
 
     this.$webServer.register(Cors, {
       origin: "*",
