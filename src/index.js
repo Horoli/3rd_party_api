@@ -5,6 +5,7 @@ const Cors = require("@fastify/cors");
 const MongoDB = require("@Utility/mongodb");
 const SteamAPIInstance = require("@Utility/steamapi");
 const PoeNinja = require("@Utility/poe_ninja");
+const cron = require("node-cron");
 
 class WebServer {
   constructor(opts = {}) {
@@ -43,9 +44,9 @@ class WebServer {
   }
   async $_initInverval() {
     await PoeNinja.setCache();
-    setInterval(async () => {
+    cron.schedule("0 * * * *", async () => {
       await PoeNinja.setCache();
-    }, 1000 * 60 * 60 * 3);
+    });
   }
   $_initRoutes() {
     const routesPath = Path.join(__dirname, "./routes");
