@@ -9,13 +9,13 @@
 - **Runtime:** Node.js
 - **Framework:** Fastify (v4+)
 - **Database:** MongoDB (Native Driver v6+)
-- **API Integration:** SteamAPI, PoE Ninja, poe-api-manager
+- **API Integration:** SteamAPI, PoE Ninja, poe-api-manager, node-cron
 - **Scraping:** Cheerio (Wiki 크롤링 등)
 - **Security:** bcryptjs, crypto
 
 ## 📂 주요 디렉토리 구조 (Directory Structure)
 - `src/`: 핵심 소스 코드
-  - `index.js`: 웹 서버 클래스 및 초기화 로직 (라우트/미들웨어 동적 로드)
+  - `index.js`: 웹 서버 클래스 및 초기화 로직 (라우트/미들웨어 동적 로드, 크론 작업 설정)
   - `routes/v1/`: 버전별 API 엔드포인트 정의 (파일명이 곧 라우트 경로가 됨)
   - `middlewares/`: 인증, 관리자 체크 등의 미들웨어 로직
   - `assets/json/`: 스킬 젬 정보 등 정적 데이터 (JSON)
@@ -53,9 +53,10 @@ node app.js
    - 라이브러리 데이터와 신규 API 데이터는 **아이템 이름(`name`)을 기준으로 매칭**합니다.
    - 가격 데이터(`primaryValue`)는 가독성을 위해 **정수로 반올림(`Math.round`)**하여 처리합니다.
 5. **Response Format:** 모든 API 응답은 `utility/general_response.js`를 통해 규격화된 포맷으로 전달하는 것을 권장합니다.
+6. **Scheduled Tasks:** `node-cron`을 사용하여 정기적인 데이터 갱신을 수행하며, `src/index.js`에서 중앙 관리합니다.
 
 ## ⚠️ 주의 사항
 - **Hardcoded Config:** 현재 MongoDB 연결 정보 및 일부 API 키가 `src/index.js`와 `utility/` 내부에 직접 작성되어 있습니다. 운영 환경 적용 시 `.env`로의 분리가 필요합니다.
-- **Git Ignore:** `ref/` 폴더는 데이터 분석 및 참고용 파일들이 포함되어 있으므로 Git 관리 대상에서 제외(`ref/`)되어 있습니다.
+- **Git Ignore:** `ref/`, `node_modules/`, `package-lock.json`, `.env` 폴더 및 파일들은 Git 관리 대상에서 제외되어 있습니다.
 - **Steam API Auth:** `src/index.js`의 `start()` 메서드에서 SteamAPI를 더미 키(`"aaa"`)로 초기화하고 있으므로 실제 연동을 위해서는 유효한 키가 필요합니다.
-- **External Dependencies:** PoE Ninja 등 외부 API 데이터는 3시간 간격으로 캐싱(`$_initInverval`)됩니다.
+- **External Dependencies:** PoE Ninja 등 외부 API 데이터는 `node-cron`을 통해 **매시간 정각**에 캐싱(`$_initInverval`)됩니다.
