@@ -124,7 +124,8 @@ class PoeNinja {
       });
 
     // 2. 신규 API에서 가격 정보만 가져오기
-    const url = "https://poe.ninja/poe1/api/economy/exchange/current/overview?league=Mirage&type=Scarab";
+    const url =
+      "https://poe.ninja/poe1/api/economy/exchange/current/overview?league=Mirage&type=Scarab";
     try {
       const response = await Axios.get(url);
       const { lines, items } = response.data;
@@ -138,9 +139,12 @@ class PoeNinja {
       // 2-2. Name -> Price 매핑 생성
       const nameToPriceMap = new Map();
       lines.forEach((line) => {
-        const itemName = idToNameMap.get(line.id);
+        // const itemName = idToNameMap.get(line.id);
+        const itemName =
+          idToNameMap.get(line.id) || line.name || line.detailsId;
         if (itemName) {
-          nameToPriceMap.set(itemName, Math.round(line.primaryValue));
+          // nameToPriceMap.set(itemName, Math.round(line.primaryValue));
+          nameToPriceMap.set(itemName, line.primaryValue);
         }
       });
 
@@ -152,7 +156,10 @@ class PoeNinja {
         return scarab;
       });
     } catch (error) {
-      console.error("Error fetching scarab prices from new API:", error.message);
+      console.error(
+        "Error fetching scarab prices from new API:",
+        error.message,
+      );
       return getScarabs; // API 호출 실패 시 기존 데이터 유지
     }
   }
