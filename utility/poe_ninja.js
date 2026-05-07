@@ -1,17 +1,16 @@
 const Axios = require("axios");
 const Constants = require("@Utility/constants");
-const { NinjaAPI, WatchAPI } = require("poe-api-manager");
 
 class PoeNinja {
   constructor() {}
 
-  static ninjaApi = new NinjaAPI("Mirage");
-  static watchApi = new WatchAPI("Mirage");
+  static #league = process.env.POE_NINJA_LEAGUE || "Mirage";
+  static #ninjaApiBase =
+    "https://poe.ninja/poe1/api/economy/stash/current";
+  static #ninjaExchangeApiBase =
+    "https://poe.ninja/poe1/api/economy/exchange/current";
   static #cache = {};
   static #standardChaosValue = 50;
-  static #currencyFilter = ["id", "name", "icon", "chaosEquivalent"];
-  static #itemFilter = ["id", "name", "icon", "chaosValue"];
-  static #mapFilter = ["id", "name", "icon", "chaosValue", "mapTier"];
 
   /**
    *
@@ -61,6 +60,147 @@ class PoeNinja {
     );
   }
 
+  static async getDivineOrb() {
+    return await this.#getDivineOrb();
+  }
+
+  static #requestOptions() {
+    return {
+      headers: {
+        "Accept-Encoding": "identity",
+      },
+    };
+  }
+
+  static #currencyOverviewUrl(type) {
+    return `${this.#ninjaApiBase}/currency/overview?league=${encodeURIComponent(
+      this.#league,
+    )}&type=${encodeURIComponent(type)}`;
+  }
+
+  static #itemOverviewUrl(type) {
+    return `${this.#ninjaApiBase}/item/overview?league=${encodeURIComponent(
+      this.#league,
+    )}&type=${encodeURIComponent(type)}`;
+  }
+
+  static #exchangeOverviewUrl(type) {
+    return `${this.#ninjaExchangeApiBase}/overview?league=${encodeURIComponent(
+      this.#league,
+    )}&type=${encodeURIComponent(type)}`;
+  }
+
+  static async #fetchNinjaData(url) {
+    try {
+      const response = await Axios.get(url, this.#requestOptions());
+      return response.data;
+    } catch (error) {
+      throw new Error(
+        `Error fetching poe.ninja data from ${url}: ${error.message}`,
+      );
+    }
+  }
+
+  static #normalizeIcon(icon) {
+    if (!icon) {
+      return icon;
+    }
+
+    const value = String(icon);
+    if (/^https?:\/\/poe\.ninja\/gen\/image\//i.test(value)) {
+      return value.replace(/^https?:\/\/poe\.ninja/i, "https://web.poecdn.com");
+    }
+    if (value.startsWith("/gen/image/")) {
+      return `https://web.poecdn.com${value}`;
+    }
+    if (/^https?:\/\//i.test(value)) {
+      return value;
+    }
+    if (value.startsWith("/")) {
+      return `https://poe.ninja${value}`;
+    }
+    return value;
+  }
+
+  static #normalizeCurrencyOverview(data) {
+    const currencyDetails = Array.isArray(data.currencyDetails)
+      ? data.currencyDetails
+      : [];
+    const detailsByName = new Map(
+      currencyDetails.map((detail) => [detail.name, detail]),
+    );
+
+    return (Array.isArray(data.lines) ? data.lines : [])
+      .map((line) => {
+        const detail = detailsByName.get(line.currencyTypeName);
+        if (!detail) {
+          return null;
+        }
+
+        return {
+          id: detail.id,
+          name: detail.name,
+          icon: this.#normalizeIcon(detail.icon),
+          chaosEquivalent: line.chaosEquivalent,
+        };
+      })
+      .filter(Boolean);
+  }
+
+  static #normalizeItemOverview(data) {
+    return (Array.isArray(data.lines) ? data.lines : [])
+      .map((line) => {
+        const name = line.name || line.baseType;
+        if (!name) {
+          return null;
+        }
+
+        return {
+          id: line.id || line.detailsId || name,
+          name,
+          icon: this.#normalizeIcon(line.icon),
+          chaosValue: line.chaosValue,
+          mapTier: line.mapTier,
+        };
+      })
+      .filter(Boolean);
+  }
+
+  static #normalizeExchangeOverview(data) {
+    const itemById = new Map();
+    const register = (item) => {
+      if (item?.id == null) {
+        return;
+      }
+      itemById.set(String(item.id), item);
+    };
+
+    (Array.isArray(data.items) ? data.items : []).forEach(register);
+    (Array.isArray(data.core?.items) ? data.core.items : []).forEach(register);
+
+    return (Array.isArray(data.lines) ? data.lines : [])
+      .map((line) => {
+        const lineId = line?.id != null ? String(line.id) : "";
+        const item = lineId ? itemById.get(lineId) : null;
+        const name = item?.name || line.name || line.currencyTypeName;
+        const chaosValue = Number(
+          line.primaryValue ?? line.chaosValue ?? line.value,
+        );
+
+        if (!name || !Number.isFinite(chaosValue)) {
+          return null;
+        }
+
+        return {
+          id: item?.detailsId || line.detailsId || lineId || name,
+          name,
+          icon: this.#normalizeIcon(item?.image || item?.icon || line.icon),
+          chaosValue,
+        };
+      })
+      .filter(Boolean);
+  }
+
   static #postImage(filtered) {
     return filtered.map(async (data) => {
       const result = await Axios({
@@ -81,19 +221,35 @@ class PoeNinja {
   }
 
   static async #getDivineOrb() {
-    return await this.ninjaApi.currencyView.currency
-      .getQuickCurrency()
-      .then((data) => {
-        return data;
-      });
+    const currency = await this.#getCurrencyData();
+    const divineOrb = currency.find((data) => data.name === "Divine Orb");
+
+    if (!divineOrb) {
+      throw new Error("Divine Orb data was not found in poe.ninja response");
+    }
+
+    return {
+      currencyTypeName: divineOrb.name,
+      chaosEquivalent: divineOrb.chaosEquivalent,
+    };
+  }
+
+  static async #getCurrencyData() {
+    const data = await this.#fetchNinjaData(
+      this.#currencyOverviewUrl("Currency"),
+    );
+    return this.#normalizeCurrencyOverview(data);
+  }
+
+  static async #getFragmentData() {
+    const data = await this.#fetchNinjaData(
+      this.#currencyOverviewUrl("Fragment"),
+    );
+    return this.#normalizeCurrencyOverview(data);
   }
 
   static async #getCurrency() {
-    const getCurrency = await this.ninjaApi.currencyView.currency
-      .getData(this.#currencyFilter)
-      .then((data) => {
-        return data;
-      });
+    const getCurrency = await this.#getCurrencyData();
 
     const filtered = getCurrency.filter((currency) => {
       return currency.chaosEquivalent >= this.#standardChaosValue;
@@ -101,12 +257,9 @@ class PoeNinja {
 
     return await Promise.all(this.#postImage(filtered));
   }
+
   static async #getFragment() {
-    const getFragment = await this.ninjaApi.currencyView.fragment
-      .getData(this.#currencyFilter)
-      .then((data) => {
-        return data;
-      });
+    const getFragment = await this.#getFragmentData();
 
     const filtered = getFragment.filter((fragment) => {
       return fragment.chaosEquivalent >= this.#standardChaosValue;
@@ -116,61 +269,15 @@ class PoeNinja {
   }
 
   static async #getScarabData() {
-    // 1. 기존 라이브러리 코드를 사용하여 아이템 정보(id, name, icon 등) 가져오기
-    const getScarabs = await this.ninjaApi.itemView.scarab
-      .getData(this.#itemFilter)
-      .then((data) => {
-        return data;
-      });
-
-    // 2. 신규 API에서 가격 정보만 가져오기
-    const url =
-      "https://poe.ninja/poe1/api/economy/exchange/current/overview?league=Mirage&type=Scarab";
-    try {
-      const response = await Axios.get(url);
-      const { lines, items } = response.data;
-
-      // 2-1. ID -> Name 매핑 생성 (신규 API 응답 기준)
-      const idToNameMap = new Map();
-      items.forEach((item) => {
-        idToNameMap.set(item.id, item.name);
-      });
-
-      // 2-2. Name -> Price 매핑 생성
-      const nameToPriceMap = new Map();
-      lines.forEach((line) => {
-        // const itemName = idToNameMap.get(line.id);
-        const itemName =
-          idToNameMap.get(line.id) || line.name || line.detailsId;
-        if (itemName) {
-          // nameToPriceMap.set(itemName, Math.round(line.primaryValue));
-          nameToPriceMap.set(itemName, line.primaryValue);
-        }
-      });
-
-      // 3. 기존 데이터의 chaosValue를 "name" 기준으로 매칭하여 교체
-      return getScarabs.map((scarab) => {
-        if (nameToPriceMap.has(scarab.name)) {
-          scarab.chaosValue = nameToPriceMap.get(scarab.name);
-        }
-        return scarab;
-      });
-    } catch (error) {
-      console.error(
-        "Error fetching scarab prices from new API:",
-        error.message,
-      );
-      return getScarabs; // API 호출 실패 시 기존 데이터 유지
-    }
+    const data = await this.#fetchNinjaData(this.#exchangeOverviewUrl("Scarab"));
+    return this.#normalizeExchangeOverview(data);
   }
 
   static async #getAllScarab() {
-    // setCache에서 처리하므로 삭제하거나 getScarabData 호출로 대체 가능
     return await this.#getScarabData();
   }
 
   static async #getScarab() {
-    // setCache에서 처리하므로 삭제하거나 필터링 로직 포함 가능
     const data = await this.#getScarabData();
     return data.filter(
       (scarab) => scarab.chaosValue >= this.#standardChaosValue,
@@ -178,11 +285,8 @@ class PoeNinja {
   }
 
   static async #getInvitation() {
-    const getInvitation = await this.ninjaApi.itemView.invitation
-      .getData(this.#itemFilter)
-      .then((data) => {
-        return data;
-      });
+    const data = await this.#fetchNinjaData(this.#itemOverviewUrl("Invitation"));
+    const getInvitation = this.#normalizeItemOverview(data);
 
     const filtered = getInvitation.filter((invitation) => {
       return invitation.chaosValue >= this.#standardChaosValue;
@@ -192,16 +296,9 @@ class PoeNinja {
   }
 
   static async #getMaps() {
-    const maps = await this.ninjaApi.itemView.map
-      .getData(this.#mapFilter)
-      .then((data) => {
-        return data;
-      });
-
-    const filtered = maps.filter((map) => {
-      return map.mapTier === 17;
-    });
-    return await Promise.all(this.#postImage(filtered));
+    const data = await this.#fetchNinjaData(this.#itemOverviewUrl("Map"));
+    const maps = this.#normalizeItemOverview(data);
+    return await Promise.all(this.#postImage(maps));
   }
 }
 

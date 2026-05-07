@@ -16,11 +16,7 @@ module.exports = {
       );
       const tagCol = await MongoDB.getCollection(Document.collections.TAG);
       const steamApi = SteamAPIInstance.sharedInstance;
-      const divineOrb = await PoeNinja.ninjaApi.currencyView.currency
-        .getQuickCurrency()
-        .then((data) => {
-          return data;
-        });
+      const divineOrb = await PoeNinja.getDivineOrb();
 
       const currentPlayers = await steamApi.getGamePlayerCounts(
         Constants.POE_ID
