@@ -4,9 +4,8 @@ const Constants = require("@Utility/constants");
 class PoeNinja {
   constructor() {}
 
-  static #league = process.env.POE_NINJA_LEAGUE || "Mirage";
-  static #ninjaApiBase =
-    "https://poe.ninja/poe1/api/economy/stash/current";
+  static #league = process.env.POE_NINJA_LEAGUE || "Curse of the Allflame";
+  static #ninjaApiBase = "https://poe.ninja/poe1/api/economy/stash/current";
   static #ninjaExchangeApiBase =
     "https://poe.ninja/poe1/api/economy/exchange/current";
   static #cache = {};
@@ -269,7 +268,9 @@ class PoeNinja {
   }
 
   static async #getScarabData() {
-    const data = await this.#fetchNinjaData(this.#exchangeOverviewUrl("Scarab"));
+    const data = await this.#fetchNinjaData(
+      this.#exchangeOverviewUrl("Scarab"),
+    );
     return this.#normalizeExchangeOverview(data);
   }
 
@@ -285,7 +286,9 @@ class PoeNinja {
   }
 
   static async #getInvitation() {
-    const data = await this.#fetchNinjaData(this.#itemOverviewUrl("Invitation"));
+    const data = await this.#fetchNinjaData(
+      this.#itemOverviewUrl("Invitation"),
+    );
     const getInvitation = this.#normalizeItemOverview(data);
 
     const filtered = getInvitation.filter((invitation) => {
