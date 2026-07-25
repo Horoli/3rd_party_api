@@ -4,7 +4,7 @@ const Constants = require("@Utility/constants");
 class PoeNinja {
   constructor() {}
 
-  static #league = process.env.POE_NINJA_LEAGUE || "Curse of the Allflame";
+  static #league = process.env.POE_NINJA_LEAGUE || "Allflame";
   static #ninjaApiBase = "https://poe.ninja/poe1/api/economy/stash/current";
   static #ninjaExchangeApiBase =
     "https://poe.ninja/poe1/api/economy/exchange/current";
@@ -38,7 +38,6 @@ class PoeNinja {
       return scarab.chaosValue >= this.#standardChaosValue;
     });
 
-    console.log(getScarabData);
     const getInvitation = await this.#getInvitation();
     const getMaps = await this.#getMaps();
 
@@ -221,7 +220,24 @@ class PoeNinja {
 
   static async #getDivineOrb() {
     const currency = await this.#getCurrencyData();
-    const divineOrb = currency.find((data) => data.name === "Divine Orb");
+    let divineOrb = currency.find((data) => data.name === "Divine Orb");
+
+    if (!divineOrb) {
+      const data = await this.#fetchNinjaData(
+        this.#exchangeOverviewUrl("Currency"),
+      );
+      const exchangeCurrency = this.#normalizeExchangeOverview(data);
+      const exchangeDivineOrb = exchangeCurrency.find(
+        (currency) => currency.name === "Divine Orb",
+      );
+
+      if (exchangeDivineOrb) {
+        divineOrb = {
+          name: exchangeDivineOrb.name,
+          chaosEquivalent: exchangeDivineOrb.chaosValue,
+        };
+      }
+    }
 
     if (!divineOrb) {
       throw new Error("Divine Orb data was not found in poe.ninja response");

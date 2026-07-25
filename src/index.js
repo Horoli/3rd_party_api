@@ -42,10 +42,20 @@ class WebServer {
       pass: process.env.MONGODB_PASS,
     });
   }
-  async $_initInverval() {
-    await PoeNinja.setCache();
-    cron.schedule("0 * * * *", async () => {
+  async $_updatePoeNinjaCache() {
+    try {
       await PoeNinja.setCache();
+    } catch (error) {
+      console.error(
+        `[${new Date().toLocaleString()}] Poe.ninja cache update failed:`,
+        error,
+      );
+    }
+  }
+  async $_initInverval() {
+    await this.$_updatePoeNinjaCache();
+    cron.schedule("0 * * * *", async () => {
+      await this.$_updatePoeNinjaCache();
     });
   }
   $_initRoutes() {
